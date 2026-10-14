@@ -21,7 +21,7 @@ export default function Footer() {
             <footer className="footer">
                 <div className="container grid4">
                     <div>
-                        <h4>GardenClone</h4>
+                        <h4>Garden Ghar</h4>
                         <p>
                             Professional gardening services. Plants, people and
                             nature together.
@@ -48,7 +48,7 @@ export default function Footer() {
                         </Link>
                     </div>
                 </div>
-                <p className="copy">© 2026 GardenClone. Practice project.</p>
+                <p className="copy">© 2026 Garden Ghar. Practice project.</p>
             </footer>
         </div>
     );

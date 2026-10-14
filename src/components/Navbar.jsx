@@ -42,7 +42,7 @@ export default function Navbar() {
             <header className="nav">
                 <div className="container nav-inner">
                     <Link to="/" className="logo">
-                        GardenClone
+                        Garden Ghar
                     </Link>
                     <button
                         className="menu-btn"
