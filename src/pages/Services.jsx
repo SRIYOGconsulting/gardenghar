@@ -1,20 +1,33 @@
-import { Link } from "react-router-dom";
 import PageHeader from "../components/PageHeader.jsx";
-import { services } from "../data/content.js";
+import ServiceCard from "../components/ServiceCard.jsx";
+import { services } from "../data/services.js";
+
+const categories = [...new Set(services.map((s) => s.category))];
 
 export default function Services() {
-  return (
-    <>
-      <PageHeader title="Our Services" />
-      <section className="section container grid3">
-        {services.map((s) => (
-          <Link to={`/services/${s.slug}`} className="card link-card" key={s.slug}>
-            <img className="img" src={s.image} alt={s.title} />
-            <h3>{s.title}</h3>
-            <p>{s.text}</p>
-          </Link>
-        ))}
-      </section>
-    </>
-  );
+    return (
+        <>
+            <PageHeader
+                title="Our Services"
+                subtitle="Gardening and landscaping in Kathmandu"
+            />
+            {categories.map((cat) => (
+                <section className="section container" key={cat}>
+                    <h2>{cat}</h2>
+                    <div className="grid3">
+                        {services
+                            .filter((s) => s.category === cat)
+                            .map((s) => (
+                                <ServiceCard
+                                    key={s.slug}
+                                    service={s}
+                                    index={services.indexOf(s)}
+                                    showText
+                                />
+                            ))}
+                    </div>
+                </section>
+            ))}
+        </>
+    );
 }

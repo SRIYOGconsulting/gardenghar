@@ -1,4 +1,3 @@
-// Replace with your own text and images.
 export const slides = [
   { title: "Gardening Services in Nepal", text: "One-time cleanups to regular maintenance, tailored to keep your garden fresh and vibrant.", image: "/images/hero1.jpg" },
   { title: "Services for Hotels and Resorts", text: "Plant care, landscaping and seasonal upkeep that enhance the guest experience.",
@@ -14,15 +13,6 @@ export const features = [
   { title: "Expert Professionals", text: "Garden landscaping and design services." },
   { title: "Hire a Gardener", text: "Hire a gardener for your home." },
   { title: "Landscaping", text: "Landscaping and park planning." },
-];
-
-export const services = [
-  { slug: "garden-maintenance", title: "Garden Maintenance", text: "Regular care: mowing, pruning, weeding and feeding.", image: "/images/Service1.jpg" },
-  { slug: "irrigation-services", title: "Irrigation Services", text: "Install and repair watering systems.", image: "/images/Service2.jpg" },
-  { slug: "landscape-design", title: "Landscape Design", text: "Plans that turn open space into a garden.", image: "/images/Service3.jpg" },
-  { slug: "consultation-services", title: "Consultation Services", text: "Expert advice on plants and layout.", image: "/images/Service4.jpg" },
-  { slug: "landscape-lighting", title: "Landscape Lighting", text: "Lighting for paths, trees and patios.", image: "/images/Service5.jpg" },
-  { slug: "temporary-gardening", title: "Temporary Gardening", text: "Short-term setups for events and shoots.", image: "/images/Service6.jpg" },
 ];
 
 export const projects = [

@@ -122,6 +122,19 @@ img.img { width: 100%; object-fit: cover; }
 
 .fab:hover, .fab:hover svg { animation-play-state: paused; }
 
+
+.narrow-text { max-width: 800px; }
+.narrow-text p { margin-bottom: 16px; }
+
+.faq { background: #fff; border: 1px solid #e3e8e3; border-radius: 8px; margin-bottom: 10px; padding: 14px 18px; }
+.faq summary { cursor: pointer; font-weight: 600; }
+.faq p { margin-top: 10px; }
+.page-header p { margin-top: 8px; max-width: 700px; opacity: 0.9; }
+.card p { margin-top: 6px; }
+
+img.img { display: block; width: 100%; height: 190px; object-fit: cover; background: #cfe3d1; }
+.link-card h3 { margin-top: 4px; }
+
 @media (prefers-reduced-motion: reduce) {
   .fab, .fab svg { animation: none; }
 }

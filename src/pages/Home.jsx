@@ -1,12 +1,8 @@
 import { Link } from "react-router-dom";
 import Hero from "../components/Hero.jsx";
-import {
-    features,
-    services,
-    projects,
-    posts,
-    testimonials,
-} from "../data/content.js";
+import { features, projects, posts, testimonials } from "../data/content.js";
+import { services } from "../data/services.js";
+import ServiceCard from "../components/ServiceCard.jsx";
 
 export default function Home() {
     return (
@@ -53,15 +49,8 @@ export default function Home() {
                     <Link to="/services">View All</Link>
                 </div>
                 <div className="grid3">
-                    {services.map((s) => (
-                        <Link
-                            to={`/services/${s.slug}`}
-                            className="card link-card"
-                            key={s.slug}
-                        >
-                            <img className="img" src={s.image} alt={s.title} />
-                            <h3>{s.title}</h3>
-                        </Link>
+                    {services.slice(0, 6).map((s, i) => (
+                        <ServiceCard key={s.slug} service={s} index={i} />
                     ))}
                 </div>
             </section>
