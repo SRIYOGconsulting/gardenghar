@@ -6,7 +6,11 @@ export default function Book() {
     const [done, setDone] = useState(false);
     return (
         <>
-            <PageHeader title="Book a Service" />
+            <PageHeader
+                title="Book a Service"
+                crumb="Projects"
+                image="/images/headers/projects4.jpg"
+            />
             <section className="section container narrow">
                 {done ? (
                     <p>Request received. We will call you to confirm.</p>

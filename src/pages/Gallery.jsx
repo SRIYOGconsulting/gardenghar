@@ -30,7 +30,12 @@ const galleryImages3 = [
 export default function Gallery() {
     return (
         <>
-            <PageHeader title="Gallery" />
+            <PageHeader
+                title="The Gallery"
+                subtitle="Showcasing our finest gardening and landscaping Pictures in Nepal"
+                crumb="Services"
+                image="/images/headers/projects2.jpg"
+            />
             <section className="section container">
                 <h2> Top Services </h2>
                 <div className="gallery-grid">

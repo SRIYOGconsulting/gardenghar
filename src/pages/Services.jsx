@@ -9,7 +9,9 @@ export default function Services() {
         <>
             <PageHeader
                 title="Our Services"
-                subtitle="Gardening and landscaping in Kathmandu"
+                subtitle="Best Gardening and landscaping in Kathmandu Nepal"
+                crumb="Services"
+                image="/images/headers/projects3.jpg"
             />
             {categories.map((cat) => (
                 <section className="section container" key={cat}>
