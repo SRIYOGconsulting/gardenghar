@@ -160,6 +160,42 @@ img.img { display: block; width: 100%; height: 190px; object-fit: cover; backgro
   border-radius: 12px;
 }
 
+.blog-search { display: flex; align-items: center; gap: 10px; max-width: 720px; margin: 0 auto; background: #fff; border: 1px solid #0f5c57; border-radius: 999px; padding: 0 22px; color: #666; }
+.blog-search input { flex: 1; border: 0; outline: 0; padding: 16px 0; font: inherit; background: transparent; }
+
+.blog-title { color: #0f5c57; margin: 40px 0 24px; }
+.blog-title:first-child { margin-top: 0; }
+
+.blog-grid2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; }
+.blog-grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+
+.blog-card { background: #fff; }
+.blog-img-link { display: block; }
+.blog-card img { display: block; width: 100%; height: 280px; object-fit: cover; border-radius: 18px; background: #cfe3d1; }
+.blog-card.featured img { height: 480px; }
+.blog-card.popular img { height: 500px; }
+.blog-body { padding: 16px 4px 0; }
+
+.blog-meta { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: #444; flex-wrap: wrap; }
+.blog-meta.center { justify-content: center; }
+.blog-meta .read { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; }
+.blog-meta.center .read { margin-left: 0; }
+.blog-meta .sep { color: #888; }
+.avatar { width: 32px; height: 32px; border-radius: 50%; background: #0f5c57; color: #fff; display: grid; place-items: center; font-weight: 600; font-size: 0.85rem; }
+
+.blog-card h3 { margin: 12px 0 8px; font-size: 1.2rem; }
+.blog-card h3 a { color: #0f5c57; }
+.blog-card p { color: #555; margin-bottom: 16px; }
+
+.read-more { display: inline-flex; align-items: center; gap: 8px; padding: 10px 22px; border: 1px solid #0f5c57; border-radius: 8px; color: #0f5c57; font-weight: 600; background: #fff; }
+.read-more:hover { background: #0f5c57; color: #fff; }
+
+.post-img { display: block; width: 100%; max-height: 460px; object-fit: cover; border-radius: 18px; margin-bottom: 24px; }
+
+.page-header .blog-search { margin: 24px auto 0; }
+.page-header .blog-search input { color: #222; }
+.page-header .blog-meta { color: #fff; margin-top: 14px; }
+
 @media (max-width: 1000px) {
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
 }
