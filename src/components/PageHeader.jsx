@@ -1,3 +1,4 @@
+import { Children } from "react";
 import { Link } from "react-router-dom";
 
 export default function PageHeader({
@@ -5,6 +6,7 @@ export default function PageHeader({
     subtitle,
     crumb,
     image = "/images/projects.jpg",
+    children,
 }) {
     const style = {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${image})`,
@@ -20,6 +22,7 @@ export default function PageHeader({
                 )}
                 <h1>{title}</h1>
                 {subtitle && <p className="sub">{subtitle}</p>}
+                {children}
             </div>
         </section>
     );
