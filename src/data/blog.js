@@ -1,4 +1,4 @@
-const AUTHORS = { pasang: "Pasang Tamang", alok: "Dj Alok", smarita: "Smarita Rai" };
+const AUTHORS = { pasang: "pasang", alok: "alok", fanny: "fanny" };
 
 export const posts = [
   {
@@ -24,7 +24,7 @@ export const posts = [
     ],
   },
   {
-    slug: "why-green-spaces-matter", group: "featured", author: AUTHORS.smarita,
+    slug: "why-green-spaces-matter", group: "featured", author: AUTHORS.fanny,
     date: "29/07/2025", read: "5 min",
     title: "Why Green Spaces Matter for Every Community",
     excerpt: "Parks and gardens clean the air, calm the mind and bring neighbours together …",
@@ -90,7 +90,7 @@ export const posts = [
     ],
   },
   {
-    slug: "plants-natures-timeless-gift", group: "recent", author: AUTHORS.smarita,
+    slug: "plants-natures-timeless-gift", group: "recent", author: AUTHORS.fanny,
     date: "29/07/2025", read: "5 min",
     title: "Plants: Nature’s Timeless Gift for a Healthier, Happier Life",
     excerpt: "Plants are more than just decorative green companions — they’re living tools for a healthier, …",
