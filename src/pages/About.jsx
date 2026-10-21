@@ -6,6 +6,7 @@ export default function About() {
         <>
             <PageHeader
                 title="About Us"
+                crumb="About"
                 subtitle="Best Gardening Services in Kathmandu, Nepal"
             />
 

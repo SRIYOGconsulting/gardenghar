@@ -7,7 +7,7 @@ export default function Contact() {
     const update = (e) => setForm({ ...form, [e.target.name]: e.target.value });
     const submit = (e) => {
         e.preventDefault();
-        console.log(form); // later: send to a backend or a form service
+        console.log(form);
         setSent(true);
     };
     return (
@@ -15,7 +15,7 @@ export default function Contact() {
             <PageHeader
                 title="Contact Us"
                 subtitle="Please Contact us if you need a gardening service in Nepal"
-                crumb="Projects"
+                crumb="Contact"
                 image="/images/headers/projects6.jpg"
             />
             <section className="section container narrow">
