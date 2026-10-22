@@ -21,7 +21,7 @@ export default function Hero() {
                 <h1>{s.title}</h1>
                 <p>{s.text}</p>
                 <Link to="/about" className="btn ghost">
-                    Read More
+                    Learn About Us
                 </Link>{" "}
                 <Link to="/book" className="btn">
                     Book a Service
