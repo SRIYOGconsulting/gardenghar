@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function ServiceCard({ service, index = 0, showText = false }) {
-    const fallback = `/images/service${(index % 6) + 1}.jpg`;
+    const fallback = `/images/service${(index % 6) + 1}.webp`;
 
     const handleError = (e) => {
         if (!e.currentTarget.src.endsWith(fallback)) {
@@ -13,7 +13,7 @@ export default function ServiceCard({ service, index = 0, showText = false }) {
         <Link to={`/services/${service.slug}`} className="card link-card">
             <img
                 className="img"
-                src={`/images/services/${service.slug}.jpg`}
+                src={`/images/services/${service.slug}.webp`}
                 alt={service.title}
                 loading="lazy"
                 onError={handleError}

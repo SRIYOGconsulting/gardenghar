@@ -16,7 +16,7 @@ export default function Contact() {
                 title="Contact Us"
                 subtitle="Please Contact us if you need a gardening service in Nepal"
                 crumb="Contact"
-                image="/images/headers/projects6.jpg"
+                image="/images/headers/projects6.webp"
             />
             <section className="section container narrow">
                 {sent ? (

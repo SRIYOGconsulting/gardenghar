@@ -9,7 +9,7 @@ export default function Book() {
             <PageHeader
                 title="Book a Service"
                 crumb="Projects"
-                image="/images/headers/projects4.jpg"
+                image="/images/headers/projects4.webp"
             />
             <section className="section container narrow">
                 {done ? (

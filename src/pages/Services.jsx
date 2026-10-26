@@ -11,7 +11,7 @@ export default function Services() {
                 title="Our Services"
                 subtitle="Best Gardening and landscaping in Kathmandu Nepal"
                 crumb="Services"
-                image="/images/headers/projects3.jpg"
+                image="/images/headers/projects3.webp"
             />
             {categories.map((cat) => (
                 <section className="section container" key={cat}>

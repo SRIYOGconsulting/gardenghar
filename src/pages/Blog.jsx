@@ -22,7 +22,7 @@ export default function Blog() {
                 title="Blog"
                 subtitle="Search for Servicing Blog in Nepal"
                 crumb="Blog"
-                image="/images/headers/projects5.jpg"
+                image="/images/headers/projects5.webp"
             >
                 <div className="blog-search">
                     <FaSearch />

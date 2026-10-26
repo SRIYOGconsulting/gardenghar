@@ -1,5 +1,5 @@
 export default function ProjectCard({ project, index = 0 }) {
-    const fallback = `/images/service${(index % 6) + 1}.jpg`;
+    const fallback = `/images/service${(index % 6) + 1}.webp`;
 
     const handleError = (e) => {
         if (!e.currentTarget.src.endsWith(fallback))
@@ -10,7 +10,7 @@ export default function ProjectCard({ project, index = 0 }) {
         <article className="project-card">
             <div className="project-img">
                 <img
-                    src={`/images/projects/${project.slug}.jpg`}
+                    src={`/images/projects/${project.slug}.webp`}
                     alt={project.title}
                     loading="lazy"
                     onError={handleError}

@@ -5,7 +5,7 @@ export default function PageHeader({
     title,
     subtitle,
     crumb,
-    image = "/images/projects.jpg",
+    image = "/images/projects.webp",
     children,
 }) {
     const style = {

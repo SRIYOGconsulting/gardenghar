@@ -1,10 +1,10 @@
 export const slides = [
-  { title: "Gardening services in Nepal", text: "One-time cleanups to regular maintenance, tailored to keep your garden fresh and vibrant.", image: "/images/hero1.jpg" },
+  { title: "Gardening services in Nepal", text: "One-time cleanups to regular maintenance, tailored to keep your garden fresh and vibrant.", image: "/images/hero1.webp" },
   { title: "Services for Hotels and Resorts", text: "Plant care, landscaping and seasonal upkeep that enhance the guest experience.",
-    image: "/images/hero2.jpg"
+    image: "/images/hero2.webp"
    },
   { title: "Best Gardening services in Kathmandu", text: "We design, plant and maintain your garden so you can enjoy it every day.",
-    image: "/images/hero3.jpg"
+    image: "/images/hero3.webp"
    },
 ];
 
@@ -16,16 +16,16 @@ export const features = [
 ];
 
 export const projects = [
-  { name: "Airport Project", text: "A modern airport with a refreshed garden.", image: "/images/projects/airport.jpg" },
-  { name: "Bank Project", text: "Bank with lively greenery.", image: "/images/projects/bank-landscape.jpg" },
-  { name: "School Project", text: "A modern college with traditional garden.", image: "/images/projects/college.jpg" },
-  { name: "Housing Project", text: "guest house with refined landscaping.", image: "/images/projects/guest.jpg" },
+  { name: "Airport Project", text: "A modern airport with a refreshed garden.", image: "/images/projects/airport.webp" },
+  { name: "Bank Project", text: "Bank with lively greenery.", image: "/images/projects/bank-landscape.webp" },
+  { name: "School Project", text: "A modern college with traditional garden.", image: "/images/projects/college.webp" },
+  { name: "Housing Project", text: "guest house with refined landscaping.", image: "/images/projects/guest.webp" },
 ];
 
 export const posts = [
-  { id: 1, title: "How Flowers Bring Happiness", author: "Author One", date: "16 March 2026", read: "5 min", image: "/images/service1.jpg" },
-  { id: 2, title: "How to Start a Gardening Business", author: "Author Two", date: "13 March 2026", read: "5 min", image: "/images/service2.jpg" },
-  { id: 3, title: "Flowers and Mental Health", author: "Author Three", date: "6 March 2026", read: "5 min", image: "/images/service3.jpg" },
+  { id: 1, title: "How Flowers Bring Happiness", author: "Author One", date: "16 March 2026", read: "5 min", image: "/images/service1.webp" },
+  { id: 2, title: "How to Start a Gardening Business", author: "Author Two", date: "13 March 2026", read: "5 min", image: "/images/service2.webp" },
+  { id: 3, title: "Flowers and Mental Health", author: "Author Three", date: "6 March 2026", read: "5 min", image: "/images/service3.webp" },
 ];
 
 export const testimonials = [

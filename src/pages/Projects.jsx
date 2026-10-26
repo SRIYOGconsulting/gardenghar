@@ -9,7 +9,7 @@ export default function Projects() {
                 title="Garden Development Projects"
                 subtitle="Showcasing our finest gardening and landscaping works — from home gardens to corporate spaces, each project is a step towards greener living."
                 crumb="Projects"
-                image="/images/headers/projects1.jpg"
+                image="/images/headers/projects1.webp"
             />
             <section className="section container">
                 <div className="project-grid">
