@@ -41,8 +41,8 @@ export default function Footer() {
                     </div>
                     <div>
                         <h4>Contact</h4>
-                        <p>Kathmandu, Nepal</p>
-                        <p>hello@example.com</p>
+                        <p>Budhanilakantha, Kathmandu</p>
+                        <p>DilliShrestha@gmail.com</p>
                         <Link to="/contact" className="btn outline">
                             Contact Us
                         </Link>
