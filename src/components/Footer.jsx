@@ -21,7 +21,14 @@ export default function Footer() {
             <footer className="footer">
                 <div className="container grid4">
                     <div>
-                        <h4>Garden Ghar</h4>
+                        <div className="footer-brand">
+                            <img
+                                src="/favicon/favicon-32x32.png"
+                                alt=""
+                                className="logo-icon"
+                            />
+                            <h4>Garden Ghar</h4>
+                        </div>
                         <p>
                             Professional gardening services. Plants, people and
                             nature together.

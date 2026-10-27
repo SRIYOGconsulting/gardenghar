@@ -42,6 +42,11 @@ export default function Navbar() {
             <header className="nav">
                 <div className="container nav-inner">
                     <Link to="/" className="logo">
+                        <img
+                            src="/favicon/favicon-32x32.png"
+                            alt=""
+                            className="logo-icon"
+                        />
                         Garden Ghar
                     </Link>
                     <button
