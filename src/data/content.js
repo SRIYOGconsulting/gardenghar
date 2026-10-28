@@ -9,10 +9,10 @@ export const slides = [
 ];
 
 export const features = [
-  { title: "Trusted Gardeners", text: "All gardeners are verified and experienced." },
-  { title: "Expert Professionals", text: "Garden landscaping and design services." },
-  { title: "Hire a Gardener", text: "Hire a gardener for your home." },
-  { title: "Landscaping", text: "Landscaping and park planning." },
+  { title: "Trusted Gardeners", text: "All gardeners are verified and experienced.", image:"/svg/guard.svg" },
+  { title: "Expert Professionals", text: "Garden landscaping and design services.", image:"/svg/professional.svg" },
+  { title: "Hire a Gardener", text: "Hire a gardener for your home.", image:"/svg/gardener.svg" },
+  { title: "Landscaping", text: "Landscaping and park planning.", image:"/svg/landscaping.svg" },
 ];
 
 export const projects = [
@@ -23,13 +23,13 @@ export const projects = [
 ];
 
 export const posts = [
-  { id: 1, title: "How Flowers Bring Happiness", author: "Author One", date: "16 March 2026", read: "5 min", image: "/images/service1.webp" },
-  { id: 2, title: "How to Start a Gardening Business", author: "Author Two", date: "13 March 2026", read: "5 min", image: "/images/service2.webp" },
-  { id: 3, title: "Flowers and Mental Health", author: "Author Three", date: "6 March 2026", read: "5 min", image: "/images/service3.webp" },
+  { id: 1, title: "How Flowers Bring Happiness", author: "Pasang Tamang", date: "16 March 2026", read: "5 min", image: "/images/service1.webp" },
+  { id: 2, title: "How to Start a Gardening Business", author: "Balen Parajuli", date: "13 March 2026", read: "5 min", image: "/images/service2.webp" },
+  { id: 3, title: "Flowers and Mental Health", author: "Arman Tamang", date: "6 March 2026", read: "5 min", image: "/images/service3.webp" },
 ];
 
 export const testimonials = [
-  { name: "Client One", place: "Resort", text: "They cleaned everything, planted new flowers and gave care tips." },
-  { name: "Client Two", place: "Hotel", text: "The team was friendly and understood what we wanted." },
-  { name: "Client Three", place: "Guest House", text: "Our lawn turned green and fresh again within weeks." },
+  { name: "Kapil oli", place: "Resort", text: "They manage our garden, and I am very satisfied with their work. They cleaned everything, planted new flowers, and even gave tips on how to take care of plants." },
+  { name: "Sher bhadur sherpa", place: "Hotel", text: "We renovated our garden with GardenGhar. The team was friendly and understood exactly what we wanted. Now it feels like a resort. Highly recommended!" },
+  { name: "Karan sharma", place: "Guest House", text: "Our lawn was in good condition. GardenSewa handled turfing and care. Within weeks, everything turned green and fresh again." },
 ];
