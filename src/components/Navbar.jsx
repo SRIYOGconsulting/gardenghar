@@ -19,7 +19,7 @@ export default function Navbar() {
                 <div className="container topbar-inner">
                     <span>
                         Helpline Number:{" "}
-                        <a href="tel:  +9779800000000">+977-9779802220030</a>
+                        <a href="tel:  +9779852024365">+977-9852024365</a>
                     </span>
                     <div className="socials">
                         <a href="https://facebook.com" aria-label="Facebook">
