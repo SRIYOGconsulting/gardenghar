@@ -14,6 +14,9 @@ export default function Home() {
                 <div className="grid4">
                     {features.map((f) => (
                         <div className="card" key={f.title}>
+                            <div className="icon-circle">
+                                <img src={f.image} />
+                            </div>
                             <h3>{f.title}</h3>
                             <p>{f.text}</p>
                         </div>
