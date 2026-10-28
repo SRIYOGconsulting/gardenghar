@@ -1,8 +1,8 @@
-const AUTHORS = { pasang: "pasang", alok: "alok", fanny: "fanny" };
+const AUTHORS = { Pasang: "Pasang", Alok: "Alok", Fanny: "Fanny" };
 
 export const posts = [
   {
-    slug: "why-every-home-deserves-a-garden", group: "popular", author: AUTHORS.pasang,
+    slug: "why-every-home-deserves-a-garden", group: "popular", author: AUTHORS.Pasang,
     date: "29/07/2025", read: "5 min",
     title: "Why Every Home Deserves a Garden",
     excerpt: "A garden adds colour, fresh air and calm to any home, no matter how small the space is …",
@@ -13,7 +13,7 @@ export const posts = [
     ],
   },
   {
-    slug: "flowers-that-bring-colour-to-any-space", group: "featured", author: AUTHORS.pasang,
+    slug: "flowers-that-bring-colour-to-any-space", group: "featured", author: AUTHORS.Pasang,
     date: "29/07/2025", read: "5 min",
     title: "Flowers That Bring Colour to Any Space",
     excerpt: "From roses to marigolds, the right flowers can lift the mood of any garden, terrace or entrance …",
@@ -24,7 +24,7 @@ export const posts = [
     ],
   },
   {
-    slug: "why-green-spaces-matter", group: "featured", author: AUTHORS.fanny,
+    slug: "why-green-spaces-matter", group: "featured", author: AUTHORS.Fanny,
     date: "29/07/2025", read: "5 min",
     title: "Why Green Spaces Matter for Every Community",
     excerpt: "Parks and gardens clean the air, calm the mind and bring neighbours together …",
@@ -35,7 +35,7 @@ export const posts = [
     ],
   },
   {
-    slug: "how-to-detox-your-life-naturally", group: "recent", author: AUTHORS.pasang,
+    slug: "how-to-detox-your-life-naturally", group: "recent", author: AUTHORS.Pasang,
     date: "29/07/2025", read: "5 min",
     title: "How to Detox Your Life Naturally With Everyday Habits",
     excerpt: "Detoxing isn’t just about green juices and diets. A real detox involves cleansing your environment, …",
@@ -46,7 +46,7 @@ export const posts = [
     ],
   },
   {
-    slug: "happiness-is-homemade-and-homegrown", group: "recent", author: AUTHORS.alok,
+    slug: "happiness-is-homemade-and-homegrown", group: "recent", author: AUTHORS.Alok,
     date: "29/07/2025", read: "5 min",
     title: "Happiness is Homemade — and Homegrown",
     excerpt: "True happiness often lies in simple joys — like seeing a seed sprout, harvesting your own vegetables, …",
@@ -57,7 +57,7 @@ export const posts = [
     ],
   },
   {
-    slug: "how-mindfulness-and-gardening-go-hand-in-hand", group: "recent", author: AUTHORS.alok,
+    slug: "how-mindfulness-and-gardening-go-hand-in-hand", group: "recent", author: AUTHORS.Alok,
     date: "29/07/2025", read: "5 min",
     title: "How Mindfulness and Gardening Go Hand in Hand",
     excerpt: "In a fast-paced world, mindfulness is the anchor that brings us back to the present. And there’s no better place …",
@@ -68,7 +68,7 @@ export const posts = [
     ],
   },
   {
-    slug: "why-gardening-services-are-the-future-of-urban-living", group: "recent", author: AUTHORS.alok,
+    slug: "why-gardening-services-are-the-future-of-urban-living", group: "recent", author: AUTHORS.Alok,
     date: "29/07/2025", read: "5 min",
     title: "Why Gardening Services Are the Future of Urban Living",
     excerpt: "With shrinking open spaces and busier schedules, urban dwellers are turning to gardening professionals …",
@@ -79,7 +79,7 @@ export const posts = [
     ],
   },
   {
-    slug: "green-is-the-new-lifestyle", group: "recent", author: AUTHORS.pasang,
+    slug: "green-is-the-new-lifestyle", group: "recent", author: AUTHORS.Pasang,
     date: "29/07/2025", read: "5 min",
     title: "Green is the New Lifestyle – Embrace the Garden Life",
     excerpt: "Gardening is more than a weekend activity — it’s a lifestyle choice. It’s about living closer to nature, …",
@@ -90,7 +90,7 @@ export const posts = [
     ],
   },
   {
-    slug: "plants-natures-timeless-gift", group: "recent", author: AUTHORS.fanny,
+    slug: "plants-natures-timeless-gift", group: "recent", author: AUTHORS.Fanny,
     date: "29/07/2025", read: "5 min",
     title: "Plants: Nature’s Timeless Gift for a Healthier, Happier Life",
     excerpt: "Plants are more than just decorative green companions — they’re living tools for a healthier, …",

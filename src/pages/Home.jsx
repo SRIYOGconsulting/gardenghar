@@ -87,6 +87,7 @@ export default function Home() {
                 <div className="grid3">
                     {testimonials.map((t) => (
                         <blockquote className="card" key={t.name}>
+                            <div className="avatar">{t.name[0]}</div>
                             <p>“{t.text}”</p>
                             <strong>{t.name}</strong>
                             <small>{t.place}</small>

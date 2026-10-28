@@ -19,7 +19,7 @@ export default function Hero() {
         <section className="hero" style={heroStyle}>
             <div className="container">
                 <h1>{s.title}</h1>
-                <p>{s.text}</p>
+                <h2>{s.text}</h2>
                 <Link to="/about" className="btn ghost">
                     Learn About Us
                 </Link>{" "}
