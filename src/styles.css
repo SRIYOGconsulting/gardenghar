@@ -178,6 +178,7 @@ h2 {
     padding: 18px;
     display: block;
     color: inherit;
+    text-align: center;
 }
 .link-card:hover {
     box-shadow: 0 4px 14px #0002;
@@ -186,6 +187,21 @@ h2 {
     display: block;
     color: #666;
 }
+
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 12px;
+}
+
+.icon-circle img {
+    width: 48px;
+    height: 48px;
+}
+
 .img {
     background: #cfe3d1;
     height: 150px;
