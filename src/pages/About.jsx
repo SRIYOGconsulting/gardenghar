@@ -21,7 +21,7 @@ export default function About() {
                     <div className="card">
                         <div className="icon-circle">
                             <img
-                                src="/svg/AboutPage SVG/dart.svg"
+                                src="/svg/AboutPage-svg/dart.svg"
                                 alt="A dart logo"
                             />
                         </div>
@@ -31,7 +31,7 @@ export default function About() {
                     <div className="card">
                         <div className="icon-circle">
                             <img
-                                src="/svg/AboutPage SVG/goal.svg"
+                                src="/svg/AboutPage-svg/goal.svg"
                                 alt="A goal logo"
                             />
                         </div>
@@ -41,7 +41,7 @@ export default function About() {
                     <div className="card">
                         <div className="icon-circle">
                             <img
-                                src="/svg/AboutPage SVG/eye.svg"
+                                src="/svg/AboutPage-svg/eye.svg"
                                 alt="An eye logo"
                             />
                         </div>
