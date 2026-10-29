@@ -20,21 +20,30 @@ export default function About() {
                 <div className="container grid3">
                     <div className="card">
                         <div className="icon-circle">
-                            <img src="/svg/dart.svg" alt="A dart logo" />
+                            <img
+                                src="/svg/AboutPage SVG/dart.svg"
+                                alt="A dart logo"
+                            />
                         </div>
                         <h3>Mission</h3>
                         <p>{about.mission}</p>
                     </div>
                     <div className="card">
                         <div className="icon-circle">
-                            <img src="/svg/goal.svg" alt="A goal logo" />
+                            <img
+                                src="/svg/AboutPage SVG/goal.svg"
+                                alt="A goal logo"
+                            />
                         </div>
                         <h3>Motive</h3>
                         <p>{about.motive}</p>
                     </div>
                     <div className="card">
                         <div className="icon-circle">
-                            <img src="/svg/eye.svg" alt="A eye logo" />
+                            <img
+                                src="/svg/AboutPage SVG/eye.svg"
+                                alt="An eye logo"
+                            />
                         </div>
                         <h3>Vision</h3>
                         <p>{about.vision}</p>

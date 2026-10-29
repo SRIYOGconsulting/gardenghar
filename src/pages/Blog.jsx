@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FaSearch } from "react-icons/fa";
 import BlogCard from "../components/BlogCard.jsx";
 import { posts } from "../data/blog.js";
 import PageHeader from "../components/PageHeader.jsx";
@@ -25,7 +24,11 @@ export default function Blog() {
                 image="/images/headers/projects5.webp"
             >
                 <div className="blog-search">
-                    <FaSearch />
+                    <img
+                        src="/svg/BlogPage-svg/search.svg"
+                        alt="a search icon"
+                        className="svg-img"
+                    />
                     <input
                         type="search"
                         placeholder="Search..."

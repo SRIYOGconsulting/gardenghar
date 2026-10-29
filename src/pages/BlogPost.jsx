@@ -1,5 +1,4 @@
 import { Link, useParams } from "react-router-dom";
-import { FaRegClock } from "react-icons/fa";
 import BlogCard from "../components/BlogCard.jsx";
 import NotFound from "./NotFound.jsx";
 import { posts } from "../data/blog.js";
@@ -29,7 +28,12 @@ export default function BlogPost() {
                         <span>{post.date}</span>
                         <span className="sep">•</span>
                         <span>
-                            <FaRegClock /> {post.read}
+                            <img
+                                src="/svg/BlogPage-svg/clock.svg"
+                                alt="a clock icon"
+                                className="svg-img"
+                            />{" "}
+                            {post.read}
                         </span>
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { FaRegClock, FaArrowRight } from "react-icons/fa";
 
 export default function BlogCard({ post, variant = "recent", index = 0 }) {
     const fallback = `/images/service${(index % 6) + 1}.webp`;
@@ -28,7 +27,12 @@ export default function BlogCard({ post, variant = "recent", index = 0 }) {
                     <span className="sep">•</span>
                     <span>{post.date}</span>
                     <span className="read">
-                        <FaRegClock /> {post.read}
+                        <img
+                            src="/svg/BlogPage-svg/clock.svg"
+                            alt="a clock icon"
+                            className="svg-img"
+                        />
+                        {post.read}
                     </span>
                 </div>
 
@@ -38,7 +42,12 @@ export default function BlogCard({ post, variant = "recent", index = 0 }) {
                 <p>{post.excerpt}</p>
 
                 <Link to={to} className="read-more">
-                    Read More <FaArrowRight />
+                    Read More{" "}
+                    <img
+                        src="/svg/BlogPage-svg/right-arrow.svg"
+                        alt="a right arrow icon"
+                        className="svg-img"
+                    />
                 </Link>
             </div>
         </article>
