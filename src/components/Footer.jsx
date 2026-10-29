@@ -49,13 +49,13 @@ export default function Footer() {
                     <div>
                         <h4>Contact</h4>
                         <p>Budhanilakantha, Kathmandu</p>
-                        <p>DilliShrestha@gmail.com</p>
+                        <p>pasanghilp@gmail.com</p>
                         <Link to="/contact" className="btn outline">
                             Contact Us
                         </Link>
                     </div>
                 </div>
-                <p className="copy">© 2026 Garden Ghar. Practice project.</p>
+                <p className="copy">© Garden Ghar </p>
             </footer>
         </div>
     );
