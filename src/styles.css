@@ -205,6 +205,11 @@ h2 {
     height: 48px;
 }
 
+.svg-img {
+    width: 16px;
+    height: 16px;
+}
+
 .img {
     background: #cfe3d1;
     height: 150px;
@@ -347,7 +352,7 @@ img.img {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    background: #0f5c57;
+    background: #227304;
     color: #fff;
     display: grid;
     place-items: center;
@@ -355,7 +360,12 @@ img.img {
     box-shadow: 0 4px 12px #0004;
 }
 
-.fab.call svg {
+.fab .svg-img {
+    width: 37px;
+    height: 37px;
+}
+
+.fab.call img {
     animation: ring 1.5s ease-in-out infinite;
     transform-origin: 50% 50%;
 }
@@ -397,7 +407,7 @@ img.img {
 }
 
 .fab:hover,
-.fab:hover svg {
+.fab:hover img {
     animation-play-state: paused;
 }
 
@@ -497,7 +507,7 @@ img.img {
 .blog-img-link {
     display: block;
 }
-.blog-card img {
+.blog-card .blog-img-link img {
     display: block;
     width: 100%;
     height: 280px;
@@ -505,12 +515,10 @@ img.img {
     border-radius: 18px;
     background: #cfe3d1;
 }
-.blog-card.featured img {
-    height: 480px;
-}
-.blog-card.popular img {
-    height: 500px;
-}
+
+.blog-card.featured .blog-img-link img { height: 480px; }
+.blog-card.popular .blog-img-link img { height: 500px; }
+
 .blog-body {
     padding: 16px 4px 0;
 }
@@ -659,7 +667,7 @@ img.img {
 
 @media (prefers-reduced-motion: reduce) {
     .fab,
-    .fab svg {
+    .fab img {
         animation: none;
     }
 }
