@@ -1,5 +1,3 @@
-import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
-
 export default function FloatingButtons() {
     return (
         <div className="floating">
@@ -8,7 +6,11 @@ export default function FloatingButtons() {
                 className="fab call"
                 aria-label="Call us"
             >
-                <FaPhoneAlt />
+                <img
+                    src="/svg/Layout-svg/phone.svg"
+                    alt="a phone icon"
+                    className="svg-img"
+                />
             </a>
             <a
                 href="https://wa.me/9779802220030"
@@ -17,7 +19,11 @@ export default function FloatingButtons() {
                 rel="noreferrer"
                 aria-label="WhatsApp"
             >
-                <FaWhatsapp />
+                <img
+                    src="/svg/Layout-svg/whatsapp.svg"
+                    alt="a whatsapp icon"
+                    className="svg-img"
+                />
             </a>
         </div>
     );
