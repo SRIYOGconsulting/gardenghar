@@ -15,7 +15,7 @@ export default function Home() {
                     {features.map((f) => (
                         <div className="card" key={f.title}>
                             <div className="icon-circle">
-                                <img src={f.image} />
+                                <img src={f.image} alt={f.text} />
                             </div>
                             <h3>{f.title}</h3>
                             <p>{f.text}</p>

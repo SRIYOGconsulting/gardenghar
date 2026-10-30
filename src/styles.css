@@ -120,19 +120,30 @@ h2 {
     max-width: 560px;
     margin-bottom: 24px;
 }
+
 .dots {
     margin-top: 24px;
+    display: flex;
+    gap: 0;
 }
 .dot {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+.dot::before {
+    content: "";
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 0;
-    margin-right: 8px;
     background: #fff6;
-    cursor: pointer;
 }
-.dot.on {
+.dot.on::before {
     background: #fff;
 }
 
