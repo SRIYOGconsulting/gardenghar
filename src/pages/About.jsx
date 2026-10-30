@@ -22,7 +22,7 @@ export default function About() {
                         <div className="icon-circle">
                             <img
                                 src="/svg/AboutPage-svg/dart.svg"
-                                alt="A dart logo"
+                                alt="A dart logo that represents mission of the company."
                             />
                         </div>
                         <h3>Mission</h3>
@@ -32,7 +32,7 @@ export default function About() {
                         <div className="icon-circle">
                             <img
                                 src="/svg/AboutPage-svg/goal.svg"
-                                alt="A goal logo"
+                                alt="A goal logo that represents Motive of the company"
                             />
                         </div>
                         <h3>Motive</h3>
@@ -42,7 +42,7 @@ export default function About() {
                         <div className="icon-circle">
                             <img
                                 src="/svg/AboutPage-svg/eye.svg"
-                                alt="An eye logo"
+                                alt="An eye logo that represnts vision of the company"
                             />
                         </div>
                         <h3>Vision</h3>

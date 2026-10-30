@@ -610,7 +610,6 @@ img.img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px 40px;
-    align-items: start;
 }
 
 .project-card {
