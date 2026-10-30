@@ -43,7 +43,7 @@ export default function Navbar() {
                 <div className="container nav-inner">
                     <Link to="/" className="logo">
                         <img
-                            src="/favicon/favicon-32x32.png"
+                            src="/favicon/favicon-64x64.png"
                             alt=""
                             className="logo-icon"
                         />

@@ -23,11 +23,11 @@ export default function Footer() {
                     <div>
                         <div className="footer-brand">
                             <img
-                                src="/favicon/favicon-32x32.png"
+                                src="/favicon/favicon-64x64.png"
                                 alt=""
                                 className="logo-icon"
                             />
-                            <h4>Garden Ghar</h4>
+                            <h3>Garden Ghar</h3>
                         </div>
                         <p>
                             Professional gardening services. Plants, people and
