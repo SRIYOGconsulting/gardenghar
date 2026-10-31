@@ -26,9 +26,9 @@ export default function Navbar() {
                             f
                         </a>
                         <a
-                            href="https://instagram.com
+                            href="https://Linkedin.com
                         "
-                            aria-label="Instagram"
+                            aria-label="Linkedin"
                         >
                             in
                         </a>

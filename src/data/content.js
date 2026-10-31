@@ -9,7 +9,7 @@ export const slides = [
 ];
 
 export const features = [
-  { title: "Trusted Gardeners", text: "All gardeners are verified and experienced.", image:"/svg/HomePage-svg/guard.svg,", text:"A Guard logo that represents security" },
+  { title: "Trusted Gardeners", text: "All gardeners are verified and experienced.", image:"/svg/HomePage-svg/guard.svg", text:"A Guard logo that represents security" },
   { title: "Expert Professionals", text: "Garden landscaping and design services.", image:"/svg/HomePage-svg/professional.svg", text:"A people logo that represents workers"  },
   { title: "Hire a Gardener", text: "Hire a gardener for your home.", image:"/svg/HomePage-svg/gardener.svg", text:"A persons logo that represents gardener" },
   { title: "Landscaping", text: "Landscaping and park planning.", image:"/svg/HomePage-svg/landscaping.svg",text:"A shovel logo that represents services"  },
