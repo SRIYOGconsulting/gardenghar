@@ -1,3 +1,5 @@
+import "./ProjectCard.css";
+
 export default function ProjectCard({ project, index = 0 }) {
     const fallback = `/images/service${(index % 6) + 1}.webp`;
 

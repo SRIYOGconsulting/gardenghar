@@ -1,6 +1,6 @@
-import PageHeader from "../components/PageHeader.jsx";
-import ServiceCard from "../components/ServiceCard.jsx";
-import { services } from "../data/services.js";
+import PageHeader from "../../components/PageHeader/PageHeader.jsx";
+import ServiceCard from "../../components/ServiceCard/ServiceCard.jsx";
+import { services } from "../../data/services.js";
 
 const categories = [...new Set(services.map((s) => s.category))];
 

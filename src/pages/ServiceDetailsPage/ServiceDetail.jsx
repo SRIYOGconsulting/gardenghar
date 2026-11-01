@@ -1,7 +1,8 @@
 import { Link, useParams } from "react-router-dom";
-import PageHeader from "../components/PageHeader.jsx";
-import NotFound from "./NotFound.jsx";
-import { services } from "../data/services.js";
+import PageHeader from "../../components/PageHeader/PageHeader.jsx";
+import NotFound from "../NotFoundPage/NotFound.jsx";
+import { services } from "../../data/services.js";
+import "./ServiceDetails.css";
 
 export default function ServiceDetail() {
     const { slug } = useParams();

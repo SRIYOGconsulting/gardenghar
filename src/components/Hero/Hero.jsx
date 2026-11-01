@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { slides } from "../data/content.js";
+import { slides } from "../../data/content.js";
+import "./Hero.css";
 
 export default function Hero() {
     const [i, setI] = useState(0);

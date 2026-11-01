@@ -1,7 +1,8 @@
 import { useState } from "react";
-import BlogCard from "../components/BlogCard.jsx";
-import { posts } from "../data/blog.js";
-import PageHeader from "../components/PageHeader.jsx";
+import BlogCard from "../../components/BlogCard/BlogCard.jsx";
+import { posts } from "../../data/blog.js";
+import PageHeader from "../../components/PageHeader/PageHeader.jsx";
+import "./Blog.css";
 
 export default function Blog() {
     const [query, setQuery] = useState("");

@@ -1,4 +1,5 @@
-import PageHeader from "../components/PageHeader.jsx";
+import PageHeader from "../../components/PageHeader/PageHeader.jsx";
+import "./Gallery.css";
 
 const galleryImages1 = [
     "/images/service1.webp",

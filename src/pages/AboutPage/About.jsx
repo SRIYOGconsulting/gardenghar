@@ -1,5 +1,5 @@
-import PageHeader from "../components/PageHeader.jsx";
-import { about } from "../data/services.js";
+import PageHeader from "../../components/PageHeader/PageHeader.jsx";
+import { about } from "../../data/services.js";
 
 export default function About() {
     return (

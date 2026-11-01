@@ -1,7 +1,8 @@
 import { Link, useParams } from "react-router-dom";
-import BlogCard from "../components/BlogCard.jsx";
-import NotFound from "./NotFound.jsx";
-import { posts } from "../data/blog.js";
+import BlogCard from "../../components/BlogCard/BlogCard.jsx";
+import NotFound from "../NotFoundPage/NotFound.jsx";
+import { posts } from "../../data/blog.js";
+import "./BlogPost.css";
 
 export default function BlogPost() {
     const { slug } = useParams();

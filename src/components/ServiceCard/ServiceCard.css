@@ -1,0 +1,6 @@
+.link-card:hover {
+    box-shadow: 0 4px 14px #0002;
+}
+.link-card h3 {
+    margin-top: 4px;
+}

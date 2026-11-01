@@ -1,6 +1,6 @@
 import { useState } from "react";
-import PageHeader from "../components/PageHeader.jsx";
-import { services } from "../data/services.js";
+import PageHeader from "../../components/PageHeader/PageHeader.jsx";
+import { services } from "../../data/services.js";
 
 export default function Book() {
     const [done, setDone] = useState(false);

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./ServiceCard.css";
 
 export default function ServiceCard({ service, index = 0, showText = false }) {
     const fallback = `/images/service${(index % 6) + 1}.webp`;

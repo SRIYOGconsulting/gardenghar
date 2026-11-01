@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./BlogCard.css";
 
 export default function BlogCard({ post, variant = "recent", index = 0 }) {
     const fallback = `/images/service${(index % 6) + 1}.webp`;

@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout.jsx";
-import Home from "./pages/Home.jsx";
-import About from "./pages/About.jsx";
-import Services from "./pages/Services.jsx";
-import ServiceDetail from "./pages/ServiceDetail.jsx";
-import Projects from "./pages/Projects.jsx";
-import Gallery from "./pages/Gallery.jsx";
-import Blog from "./pages/Blog.jsx";
-import Contact from "./pages/Contact.jsx";
-import Book from "./pages/Book.jsx";
-import NotFound from "./pages/NotFound.jsx";
-import BlogPost from "./pages/BlogPost.jsx";
+import Layout from "./components/Layout/Layout.jsx";
+import Home from "./pages/HomePage/Home.jsx";
+import About from "./pages/AboutPage/About.jsx";
+import Services from "./pages/ServicesPage/Services.jsx";
+import ServiceDetail from "./pages/ServiceDetailsPage/ServiceDetail.jsx";
+import Projects from "./pages/ProjectsPage/Projects.jsx";
+import Gallery from "./pages/GalleryPage/Gallery.jsx";
+import Blog from "./pages/BlogPage/Blog.jsx";
+import Contact from "./pages/ContactPage/Contact.jsx";
+import Book from "./pages/BookPage/Book.jsx";
+import NotFound from "./pages/NotFoundPage/NotFound.jsx";
+import BlogPost from "./pages/BlogPostPage/BlogPost.jsx";
 
 export default function App() {
     return (

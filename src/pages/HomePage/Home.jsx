@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Hero from "../components/Hero.jsx";
-import { features, projects, posts, testimonials } from "../data/content.js";
-import { services } from "../data/services.js";
-import ServiceCard from "../components/ServiceCard.jsx";
+import Hero from "../../components/Hero/Hero.jsx";
+import { features, projects, posts, testimonials } from "../../data/content.js";
+import { services } from "../../data/services.js";
+import ServiceCard from "../../components/ServiceCard/ServiceCard.jsx";
 
 export default function Home() {
     return (

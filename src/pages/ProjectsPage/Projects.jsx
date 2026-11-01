@@ -1,6 +1,7 @@
-import PageHeader from "../components/PageHeader.jsx";
-import ProjectCard from "../components/ProjectCard.jsx";
-import { projects } from "../data/projects.js";
+import PageHeader from "../../components/PageHeader/PageHeader.jsx";
+import ProjectCard from "../../components/ProjectCard/ProjectCard.jsx";
+import { projects } from "../../data/projects.js";
+import "./Projects.css";
 
 export default function Projects() {
     return (

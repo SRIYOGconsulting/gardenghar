@@ -1,0 +1,79 @@
+.floating {
+    position: fixed;
+    right: 20px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    z-index: 20;
+}
+
+.fab {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #227304;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 1.6rem;
+    box-shadow: 0 4px 12px #0004;
+}
+
+.fab .svg-img {
+    width: 37px;
+    height: 37px;
+}
+
+.fab.call img {
+    animation: ring 1.5s ease-in-out infinite;
+    transform-origin: 50% 50%;
+}
+.fab.whatsapp {
+    animation: bounce 1.4s ease-in-out infinite;
+}
+
+@keyframes ring {
+    0%,
+    60%,
+    100% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(-14deg);
+    }
+    20% {
+        transform: rotate(14deg);
+    }
+    30% {
+        transform: rotate(-12deg);
+    }
+    40% {
+        transform: rotate(12deg);
+    }
+    50% {
+        transform: rotate(-6deg);
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.fab:hover,
+.fab:hover img {
+    animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fab,
+    .fab img {
+        animation: none;
+    }
+}

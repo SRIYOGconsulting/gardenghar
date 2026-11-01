@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PageHeader from "../components/PageHeader.jsx";
+import PageHeader from "../../components/PageHeader/PageHeader.jsx";
 
 export default function Contact() {
     const [form, setForm] = useState({ name: "", email: "", message: "" });
