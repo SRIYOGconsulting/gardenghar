@@ -16,10 +16,10 @@ export const features = [
 ];
 
 export const projects = [
-  { name: "Airport Project", text: "A modern airport with a refreshed garden.", image: "/images/projects/airport.webp" },
-  { name: "Bank Project", text: "Bank with lively greenery.", image: "/images/projects/bank-landscape.webp" },
-  { name: "School Project", text: "A modern college with traditional garden.", image: "/images/projects/college.webp" },
-  { name: "Housing Project", text: "guest house with refined landscaping.", image: "/images/projects/guest.webp" },
+  { name: "City House", text: "A modern CityHouse with a refreshed garden.", image: "/images/projects/airport.webp" },
+  { name: "Flowering House", text: "Flower house with lively greenery.", image: "/images/projects/bank-landscape.webp" },
+  { name: "Jhanda Building Garden", text: "A modern building with traditional garden.", image: "/images/projects/college.webp" },
+  { name: "Ram Scenario Landscape", text: "Guest house with refined landscaping.", image: "/images/projects/guest.webp" },
 ];
 
 export const posts = [
