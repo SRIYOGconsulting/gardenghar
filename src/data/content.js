@@ -16,7 +16,7 @@ export const features = [
 ];
 
 export const projects = [
-  { name: "City House", text: "A modern CityHouse with a refreshed garden.", image: "/images/projects/airport.webp" },
+  { name: "LP Garden", text: "A modern CityHouse with a refreshed garden.", image: "/images/projects/airport.webp" },
   { name: "Flowering House", text: "Flower house with lively greenery.", image: "/images/projects/bank-landscape.webp" },
   { name: "Jhanda Building Garden", text: "A modern building with traditional garden.", image: "/images/projects/college.webp" },
   { name: "Ram Scenario Landscape", text: "Guest house with refined landscaping.", image: "/images/projects/guest.webp" },
