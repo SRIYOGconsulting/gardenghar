@@ -1,0 +1,23 @@
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #0f5c57;
+    border-radius: 999px;
+    padding: 0 22px;
+    color: #666;
+}
+.search input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    padding: 16px 0;
+    font: inherit;
+    background: transparent;
+}
+.search input {
+    color: #222;
+}
