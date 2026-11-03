@@ -3,6 +3,7 @@ import BlogCard from "../../components/BlogCard/BlogCard.jsx";
 import { posts } from "../../data/blog.js";
 import PageHeader from "../../components/PageHeader/PageHeader.jsx";
 import "./Blog.css";
+import { SearchBar } from "../../components/SearchBar/SearchBar.jsx";
 
 export default function Blog() {
     const [query, setQuery] = useState("");
@@ -24,20 +25,7 @@ export default function Blog() {
                 crumb="Blog"
                 image="/images/headers/projects5.webp"
             >
-                <div className="blog-search">
-                    <img
-                        src="/svg/BlogPage-svg/search.svg"
-                        alt="a search icon"
-                        className="svg-img"
-                    />
-                    <input
-                        type="search"
-                        placeholder="Search..."
-                        value={query}
-                        onChange={(e) => setQuery(e.target.value)}
-                        aria-label="Search blog posts"
-                    />
-                </div>
+                <SearchBar value={query} onChange={setQuery} />
             </PageHeader>
             <div className="section container">
                 {q ? (
