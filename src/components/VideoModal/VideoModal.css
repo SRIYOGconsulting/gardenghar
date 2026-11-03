@@ -1,0 +1,44 @@
+.video-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.video-modal__dialog {
+  position: relative;
+  width: min(960px, 100%);
+  padding: 12px;
+  background: var(--card-bg, #fff);
+  border-radius: 14px;
+}
+
+.video-modal__close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 36px;
+  height: 36px;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #fff;
+  background: var(--primary, #2e7d32);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.video-modal__close:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
+.video-modal__title {
+  margin: 12px 4px 4px;
+  font-weight: 600;
+  line-height: 1.4;
+}
