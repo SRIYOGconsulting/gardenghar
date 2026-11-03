@@ -67,7 +67,8 @@ export const categories = [...new Set(videos.map((v) => v.type))];
 
 export const formatDuration = (d) => d.replace(/^0:/, "");
 
-export const thumbnailUrl = (id) => `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+export const thumbnailUrl = (id) =>
+  `https://i.ytimg.com/vi/${id}/mqdefault.jpg`;
 
 export const embedUrl = (id, start = 0) =>
   `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0${start ? `&start=${start}` : ""}`;
