@@ -22,3 +22,22 @@
 .page-header .crumbs a {
     color: #fff;
 }
+
+.page-header {
+    background-color: var(--dark);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        var(--bg-desktop);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+            var(--bg-mobile);
+    }
+}

@@ -1,4 +1,3 @@
-import { Children } from "react";
 import { Link } from "react-router-dom";
 import "./PageHeader.css";
 
@@ -7,10 +6,12 @@ export default function PageHeader({
     subtitle,
     crumb,
     image = "/images/projects.webp",
+    imageMobile,
     children,
 }) {
     const style = {
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${image})`,
+        "--bg-desktop": `url(${image})`,
+        "--bg-mobile": `url(${imageMobile || image})`,
     };
 
     return (
