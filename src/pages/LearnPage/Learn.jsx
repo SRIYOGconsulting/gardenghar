@@ -34,7 +34,8 @@ export default function Learn() {
                 subtitle="Free video tutorials on gardening, plant care and the skills
                     every gardener needs."
                 crumb="Learn"
-                image="/images/headers/projects7.webp"
+                image="/images/headers/Project7/projects7.1.webp"
+                imageMobile="/images/headers/Project7/projects7.2.webp"
             >
                 <SearchBar value={query} onChange={setQuery} />
             </PageHeader>
