@@ -28,9 +28,10 @@ export default function Navbar() {
                             f
                         </a>
                         <a
-                            href="https://Linkedin.com
-                        "
-                            aria-label="Linkedin"
+                            href="https://www.linkedin.com"
+                            aria-label="LinkedIn"
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             in
                         </a>
