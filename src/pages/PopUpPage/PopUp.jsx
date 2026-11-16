@@ -1,70 +1,65 @@
 import { useEffect, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import "./PopUp.css";
 
-const RoadBlock = () => {
-    const seen =
-        typeof window !== "undefined"
-            ? JSON.parse(sessionStorage.getItem("roadblockseen") || "false")
-            : false;
+const monthNames = [
+    "january",
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "july",
+    "august",
+    "september",
+    "october",
+    "november",
+    "december",
+];
 
-    const [ShowRoadBlock, setShowRoadBlock] = useState < boolean > !seen;
-    const [displayTimeLeft, setDisplayTimeLeft] = useState(10);
-    const [imageSrc, setImageSrc] = (useState < string) | (null > null);
+const PopUp = () => {
+    // show only once per browser tab session
+    const [seen] = useState(
+        () => sessionStorage.getItem("PopUpseen") === "true",
+    );
+    const [showPopUp, setShowPopUp] = useState(!seen);
+    const [timeLeft, setTimeLeft] = useState(10);
+    const [imageSrc, setImageSrc] = useState(null);
 
-    const handleCloseRoadBlock = () => {
+    const handleClose = () => {
         document.body.style.overflow = "auto";
-        setShowRoadBlock(false);
-        sessionStorage.setItem("roadblockClosedAt", Date.now().toString());
-        window.dispatchEvent(new Event("roadblock-closed"));
+        setShowPopUp(false);
+        sessionStorage.setItem("PopUpClosedAt", Date.now().toString());
+        window.dispatchEvent(new Event("PopUp-closed"));
     };
 
+    // mark as seen + lock scroll
     useEffect(() => {
         if (!seen) {
-            sessionStorage.setItem("roadblockseen", JSON.stringify(true));
+            sessionStorage.setItem("PopUpseen", "true");
             document.body.style.overflow = "hidden";
         }
     }, [seen]);
 
-    // Auto close after 15s
+    // auto close after 15s
     useEffect(() => {
-        if (!ShowRoadBlock) return;
-
-        const timer = setTimeout(handleCloseRoadBlock, 15000);
+        if (!showPopUp) return;
+        const timer = setTimeout(handleClose, 15000);
         return () => clearTimeout(timer);
-    }, [ShowRoadBlock]);
+    }, [showPopUp]);
 
-    // Countdown unlock for X (10s)
+    // 10s countdown before the X button works
     useEffect(() => {
-        if (!ShowRoadBlock) return;
-
+        if (!showPopUp) return;
         const interval = setInterval(() => {
-            setDisplayTimeLeft((prev) => (prev <= 1 ? 0 : prev - 1));
+            setTimeLeft((prev) => (prev <= 1 ? 0 : prev - 1));
         }, 1000);
-
         return () => clearInterval(interval);
-    }, [ShowRoadBlock]);
+    }, [showPopUp]);
 
-    // Image logic
+    // pick today's image, fall back to default
     const today = new Date();
-    const day = today.getDate();
-    const monthNames = [
-        "january",
-        "february",
-        "march",
-        "april",
-        "may",
-        "june",
-        "july",
-        "august",
-        "september",
-        "october",
-        "november",
-        "december",
-    ];
-    const month = monthNames[today.getMonth()];
-    const dailySrc = `/roadblock/${month}/${day}.jpg`;
-    const fallbackSrc = "/roadblock/default.jpg";
+    const dailySrc = `/PopUp/${monthNames[today.getMonth()]}/${today.getDate()}.jpg`;
+    const fallbackSrc = "/PopUp/default.jpg";
 
     useEffect(() => {
         const img = new window.Image();
@@ -73,52 +68,46 @@ const RoadBlock = () => {
         img.onerror = () => setImageSrc(fallbackSrc);
     }, [dailySrc]);
 
-    if (!imageSrc || !ShowRoadBlock) return null;
+    if (!imageSrc || !showPopUp) return null;
 
     return (
-        <div className="fixed inset-0 bg-[#d0d7dd] bg-opacity-90 flex items-center justify-center z-9999">
-            <div className="relative bg-white rounded-2xl shadow-2xl w-[90vmin] h-[90vmin] p-4 flex items-center justify-center">
+        <div className="PopUp-overlay">
+            <div className="PopUp-box">
                 <button
-                    onClick={() =>
-                        displayTimeLeft <= 0 && handleCloseRoadBlock()
-                    }
-                    disabled={displayTimeLeft > 0}
-                    className={`absolute -top-3 -right-3 w-11 h-11 bg-[#055d59] rounded-md text-white font-bold ${
-                        displayTimeLeft > 0
-                            ? "cursor-not-allowed opacity-80"
-                            : "hover:bg-[#044c4a]"
-                    }`}
+                    className="PopUp-close"
+                    onClick={() => timeLeft <= 0 && handleClose()}
+                    disabled={timeLeft > 0}
                 >
-                    {displayTimeLeft > 0 ? displayTimeLeft : "X"}
+                    {timeLeft > 0 ? timeLeft : "X"}
                 </button>
 
-                <img
-                    src={imageSrc}
-                    alt="Advertisement"
-                    className="w-full h-full object-contain rounded-lg"
-                />
+                <img src={imageSrc} alt="Advertisement" className="PopUp-img" />
             </div>
 
-            <div className="fixed bottom-12 right-5 flex flex-col gap-6">
-                <Link href="https://d.sriyog.com/WhatsApp" target="_blank">
-                    <Image
+            <div className="PopUp-contact">
+                <a
+                    href="https://wa.me/97798XXXXXXXX"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img
                         src="/icons/whatsapp.svg"
-                        width={40}
-                        height={30}
+                        width="40"
+                        height="40"
                         alt="WhatsApp"
                     />
-                </Link>
-                <Link href="tel:+9779852024365">
-                    <Image
+                </a>
+                <a href="tel:+97798XXXXXXXX">
+                    <img
                         src="/icons/phone.svg"
-                        width={40}
-                        height={30}
+                        width="40"
+                        height="40"
                         alt="Phone"
                     />
-                </Link>
+                </a>
             </div>
         </div>
     );
 };
 
-export default RoadBlock;
+export default PopUp;
