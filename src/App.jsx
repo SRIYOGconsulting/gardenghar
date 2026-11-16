@@ -12,24 +12,28 @@ import Contact from "./pages/ContactPage/Contact.jsx";
 import Book from "./pages/BookPage/Book.jsx";
 import NotFound from "./pages/NotFoundPage/NotFound.jsx";
 import BlogPost from "./pages/BlogPostPage/BlogPost.jsx";
+import PopUp from "./pages/PopUpPage/PopUp";
 
 export default function App() {
     return (
-        <Routes>
-            <Route element={<Layout />}>
-                <Route index element={<Home />} />
-                <Route path="about" element={<About />} />
-                <Route path="services" element={<Services />} />
-                <Route path="services/:slug" element={<ServiceDetail />} />
-                <Route path="projects" element={<Projects />} />
-                <Route path="gallery" element={<Gallery />} />
-                <Route path="learn" element={<Learn />} />
-                <Route path="blog" element={<Blog />} />
-                <Route path="blog/:slug" element={<BlogPost />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="book" element={<Book />} />
-                <Route path="*" element={<NotFound />} />
-            </Route>
-        </Routes>
+        <>
+            <PopUp />
+            <Routes>
+                <Route element={<Layout />}>
+                    <Route index element={<Home />} />
+                    <Route path="about" element={<About />} />
+                    <Route path="services" element={<Services />} />
+                    <Route path="services/:slug" element={<ServiceDetail />} />
+                    <Route path="projects" element={<Projects />} />
+                    <Route path="gallery" element={<Gallery />} />
+                    <Route path="learn" element={<Learn />} />
+                    <Route path="blog" element={<Blog />} />
+                    <Route path="blog/:slug" element={<BlogPost />} />
+                    <Route path="contact" element={<Contact />} />
+                    <Route path="book" element={<Book />} />
+                    <Route path="*" element={<NotFound />} />
+                </Route>
+            </Routes>
+        </>
     );
 }
