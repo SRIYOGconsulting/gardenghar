@@ -1,0 +1,61 @@
+.PopUp-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(208, 215, 221, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.PopUp-box {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  width: 90vmin;
+  height: 90vmin;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PopUp-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 44px;
+  height: 44px;
+  background: #055d59;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.PopUp-close:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.PopUp-close:not(:disabled):hover {
+  background: #044c4a;
+}
+
+.PopUp-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.PopUp-contact {
+  position: fixed;
+  bottom: 48px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
