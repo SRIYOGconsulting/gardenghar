@@ -46,7 +46,7 @@ const PopUp = () => {
     useEffect(() => {
         if (!seen) {
             try {
-                localStorage.setItem("roadblockSeenDate", getTodayKey());
+                localStorage.setItem("PopUpSeenDate", getTodayKey());
             } catch {}
             document.body.style.overflow = "hidden";
         }
