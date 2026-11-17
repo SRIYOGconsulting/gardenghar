@@ -12,12 +12,10 @@ import Contact from "./pages/ContactPage/Contact.jsx";
 import Book from "./pages/BookPage/Book.jsx";
 import NotFound from "./pages/NotFoundPage/NotFound.jsx";
 import BlogPost from "./pages/BlogPostPage/BlogPost.jsx";
-import PopUp from "./pages/PopUpPage/PopUp";
 
 export default function App() {
     return (
         <>
-            <PopUp />
             <Routes>
                 <Route element={<Layout />}>
                     <Route index element={<Home />} />

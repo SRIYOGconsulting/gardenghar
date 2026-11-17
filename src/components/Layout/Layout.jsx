@@ -3,6 +3,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar.jsx";
 import Footer from "../Footer/Footer.jsx";
 import FloatingButtons from "../FloatingButtons/FloatingButtons.jsx";
+import PopUp from "../PopUp/PopUp.jsx";
 
 export default function Layout() {
     const { pathname } = useLocation();
@@ -13,6 +14,7 @@ export default function Layout() {
 
     return (
         <>
+            <PopUp />
             <Navbar />
             <main>
                 <Outlet />
