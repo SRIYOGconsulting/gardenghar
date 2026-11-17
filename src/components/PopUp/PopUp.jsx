@@ -23,7 +23,7 @@ const PopUp = () => {
         () => sessionStorage.getItem("PopUpseen") === "true",
     );
     const [showPopUp, setShowPopUp] = useState(!seen);
-    const [timeLeft, setTimeLeft] = useState(10);
+    const [timeLeft, setTimeLeft] = useState(5);
     const [imageSrc, setImageSrc] = useState(null);
 
     const handleClose = () => {
@@ -41,14 +41,14 @@ const PopUp = () => {
         }
     }, [seen]);
 
-    // auto close after 15s
+    // auto close after 10s
     useEffect(() => {
         if (!showPopUp) return;
-        const timer = setTimeout(handleClose, 15000);
+        const timer = setTimeout(handleClose, 10000);
         return () => clearTimeout(timer);
     }, [showPopUp]);
 
-    // 10s countdown before the X button works
+    // 5s countdown before the X button works
     useEffect(() => {
         if (!showPopUp) return;
         const interval = setInterval(() => {
