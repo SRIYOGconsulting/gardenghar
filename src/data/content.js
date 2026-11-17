@@ -1,10 +1,10 @@
 export const slides = [
-  { title: "Gardening services in Nepal", text: "One-time cleanups to regular maintenance, tailored to keep your garden fresh and vibrant.", image: "/images/hero1.webp" },
+  { title: "Gardening services in Nepal", text: "One-time cleanups to regular maintenance, tailored to keep your garden fresh and vibrant.", image: "/images/home/hero1.webp" },
   { title: "Services for Hotels and Resorts", text: "Plant care, landscaping and seasonal upkeep that enhance the guest experience.",
-    image: "/images/hero2.webp"
+    image: "/images/home/hero2.webp"
    },
   { title: "Best Gardening services in Kathmandu", text: "We design, plant and maintain your garden so you can enjoy it every day.",
-    image: "/images/hero3.webp"
+    image: "/images/home/hero3.webp"
    },
 ];
 
@@ -23,9 +23,9 @@ export const projects = [
 ];
 
 export const posts = [
-  { id: 1, title: "How Flowers Bring Happiness", author: "Pasang Tamang", date: "16 March 2026", read: "5 min", image: "/images/service1.webp" },
-  { id: 2, title: "How to Start a Gardening Business", author: "Balen Parajuli", date: "13 March 2026", read: "5 min", image: "/images/service2.webp" },
-  { id: 3, title: "Flowers and Mental Health", author: "Arman Tamang", date: "6 March 2026", read: "5 min", image: "/images/service3.webp" },
+  { id: 1, title: "How Flowers Bring Happiness", author: "Pasang Tamang", date: "16 March 2026", read: "5 min", image: "/images/home/service1.webp" },
+  { id: 2, title: "How to Start a Gardening Business", author: "Balen Parajuli", date: "13 March 2026", read: "5 min", image: "/images/home/service2.webp" },
+  { id: 3, title: "Flowers and Mental Health", author: "Arman Tamang", date: "6 March 2026", read: "5 min", image: "/images/home/service3.webp" },
 ];
 
 export const testimonials = [

@@ -11,7 +11,7 @@ export default function BlogPost() {
 
     const post = posts[index];
     const related = posts.filter((p) => p.slug !== slug).slice(0, 3);
-    const fallback = `/images/service${(index % 6) + 1}.webp`;
+    const image = `/images/home/service${(index % 6) + 1}.webp`;
 
     return (
         <>
@@ -43,12 +43,8 @@ export default function BlogPost() {
             <article className="section container narrow-text">
                 <img
                     className="post-img"
-                    src={`/images/blog/${post.slug}.webp`}
+                    src={image}
                     alt={post.title}
-                    onError={(e) => {
-                        if (!e.currentTarget.src.endsWith(fallback))
-                            e.currentTarget.src = fallback;
-                    }}
                 />
                 {post.body.map((para, i) => (
                     <p key={i}>{para}</p>

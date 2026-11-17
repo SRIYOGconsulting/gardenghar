@@ -2,22 +2,15 @@ import { Link } from "react-router-dom";
 import "./BlogCard.css";
 
 export default function BlogCard({ post, variant = "recent", index = 0 }) {
-    const fallback = `/images/service${(index % 6) + 1}.webp`;
     const to = `/blog/${post.slug}`;
-
-    const handleError = (e) => {
-        if (!e.currentTarget.src.endsWith(fallback))
-            e.currentTarget.src = fallback;
-    };
 
     return (
         <article className={`blog-card ${variant}`}>
             <Link to={to} className="blog-img-link">
                 <img
-                    src={`/images/blog/${post.slug}.webp`}
+                    src={`/images/home/service${(index % 6) + 1}.webp`}
                     alt={post.title}
                     loading="lazy"
-                    onError={handleError}
                 />
             </Link>
 

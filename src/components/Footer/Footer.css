@@ -1,7 +1,7 @@
 .footer-wrap {
     background:
         linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url("/images/footer-bg.webp") center / cover no-repeat;
+        url("/images/footer/footer-bg.webp") center / cover no-repeat;
     color: #fff;
 }
 

@@ -5,7 +5,7 @@ export default function PageHeader({
     title,
     subtitle,
     crumb,
-    image = "/images/projects.webp",
+    image = "/images/home/projects.webp",
     imageMobile,
     children,
 }) {
