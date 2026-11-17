@@ -17,11 +17,20 @@ const monthNames = [
     "december",
 ];
 
+const getTodayKey = () => {
+    const d = new Date();
+    return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+};
+
 const PopUp = () => {
     // show only once per browser tab session
-    const [seen] = useState(
-        () => sessionStorage.getItem("PopUpseen") === "true",
-    );
+    const [seen] = useState(() => {
+        try {
+            return localStorage.getItem("PopUpSeenDate") === getTodayKey();
+        } catch {
+            return false;
+        }
+    });
     const [showPopUp, setShowPopUp] = useState(!seen);
     const [timeLeft, setTimeLeft] = useState(5);
     const [imageSrc, setImageSrc] = useState(null);
@@ -36,9 +45,14 @@ const PopUp = () => {
     // mark as seen + lock scroll
     useEffect(() => {
         if (!seen) {
-            sessionStorage.setItem("PopUpseen", "true");
+            try {
+                localStorage.setItem("roadblockSeenDate", getTodayKey());
+            } catch {}
             document.body.style.overflow = "hidden";
         }
+        return () => {
+            document.body.style.overflow = "auto";
+        };
     }, [seen]);
 
     // auto close after 10s
