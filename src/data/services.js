@@ -1,7 +1,7 @@
 export const about = {
   "intro": [
-    "Garden Ghar is the trusted partner for transforming outdoor and indoor spaces into vibrant, living sanctuaries. We specialize in comprehensive flowering and gardening services—from thoughtful garden design and seasonal flower installations to expert plant care, landscaping, and ongoing maintenance.",
-    "Whether you’re looking to create a colorful balcony garden, a serene rooftop retreat, or a lush residential landscape, our team brings professional expertise, creative vision, and a deep appreciation for Nepal’s unique climate and flora. At Garden Ghar, we believe every space has the potential to bloom—beautifully, sustainably, and with lasting care."
+    "Gulf Gardening is the trusted partner for transforming outdoor and indoor spaces into vibrant, living sanctuaries. We specialize in comprehensive flowering and gardening services—from thoughtful garden design and seasonal flower installations to expert plant care, landscaping, and ongoing maintenance.",
+    "Whether you’re looking to create a colorful balcony garden, a serene rooftop retreat, or a lush residential landscape, our team brings professional expertise, creative vision, and a deep appreciation for Nepal’s unique climate and flora. At Gulf Gardening, we believe every space has the potential to bloom—beautifully, sustainably, and with lasting care."
   ],
   "mission": "To deliver high-quality flowering plants, professional gardening solutions, and expert care that transform spaces across Kathmandu and every corner of Nepal.",
   "motive": "To become Nepal’s most trusted destination for all gardening and flowering needs — offering reliable services, quality plants, and practical expert guidance for every home gardener, landscape enthusiast, and green space creator.",
@@ -15,10 +15,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Regular mowing, edging, fertilizing and weed control to keep your lawn healthy, lush and green all year.",
     "body": [
-      "Looking for reliable professional lawn care services in Kathmandu? At Garden Ghar, we specialize in complete lawn maintenance designed to keep your grass healthy, lush, and green throughout the year — perfectly suited to Nepal’s unique climate.",
+      "Looking for reliable professional lawn care services in Kathmandu? At Gulf Gardening, we specialize in complete lawn maintenance designed to keep your grass healthy, lush, and green throughout the year — perfectly suited to Nepal’s unique climate.",
       "Our expert team provides regular lawn mowing, precise edging, balanced fertilizing, effective weed control, and seasonal upkeep. Whether you need one-time lawn care or ongoing monthly maintenance, we deliver consistent results for both residential gardens and commercial green spaces across Kathmandu Valley.",
       "From small home lawns in Kamalpokhari to larger hotel and office landscapes, our professional lawn maintenance services ensure your outdoor space stays neat, vibrant, and inviting in every season. We focus on healthy soil, proper cutting techniques, and climate-appropriate care so your lawn thrives with minimal effort from you.",
-      "Choose Garden Ghar for trusted lawn care in Kathmandu and enjoy a beautiful, well-maintained lawn without the hassle. Contact us today for a free consultation and customized lawn care package."
+      "Choose Gulf Gardening for trusted lawn care in Kathmandu and enjoy a beautiful, well-maintained lawn without the hassle. Contact us today for a free consultation and customized lawn care package."
     ],
     "faqs": [
       {
@@ -38,7 +38,7 @@ export const services = [
         "a": "Absolutely. We provide professional lawn maintenance for homes, apartments, offices, hotels, resorts, and commercial complexes across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I book lawn care services with Garden Ghar?",
+        "q": "How do I book lawn care services with Gulf Gardening?",
         "a": "You can contact us via phone, WhatsApp, or our website. We’ll schedule a quick site visit, assess your lawn, and provide a customized quote before starting the service."
       }
     ]
@@ -49,10 +49,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Expert planting of trees, shrubs, flowers, and vegetables, along with careful transplanting of existing plants to ensure healthy growth in their new location.",
     "body": [
-      "Looking for expert planting and transplanting services in Kathmandu? At Garden Ghar, we provide professional planting of trees, shrubs, flowers, and vegetables, along with careful transplanting of existing plants to ensure healthy growth and long-term success — perfectly adapted to Nepal’s climate and soil conditions.",
+      "Looking for expert planting and transplanting services in Kathmandu? At Gulf Gardening, we provide professional planting of trees, shrubs, flowers, and vegetables, along with careful transplanting of existing plants to ensure healthy growth and long-term success — perfectly adapted to Nepal’s climate and soil conditions.",
       "Our experienced team handles proper site preparation, correct planting techniques, root care during transplanting, and post-planting support. Whether you need new plants installed in your garden, rooftop, or commercial space, or want to safely move existing plants to a better location, we deliver reliable results across Kathmandu Valley.",
       "From residential gardens in Kamalpokhari to hotel landscapes, office premises, and larger commercial projects, our planting and transplanting services help create thriving green spaces. We focus on selecting suitable plants, ensuring healthy root establishment, and providing aftercare guidance so your plants grow strong with minimal stress.",
-      "Choose Garden Ghar for trusted planting and transplanting services in Kathmandu and give your plants the best start. Contact us today for a free consultation and customized planting solution."
+      "Choose Gulf Gardening for trusted planting and transplanting services in Kathmandu and give your plants the best start. Contact us today for a free consultation and customized planting solution."
     ],
     "faqs": [
       {
@@ -72,7 +72,7 @@ export const services = [
         "a": "We provide both single-plant or small-scale planting services as well as complete garden planting packages. Custom solutions are available for residential, commercial, and landscape projects."
       },
       {
-        "q": "How do I book planting or transplanting services with Garden Ghar?",
+        "q": "How do I book planting or transplanting services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will schedule a site visit, assess the location and plants, and provide a clear customized quote before starting the work."
       }
     ]
@@ -83,10 +83,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Complete garden care including weeding, pruning, mulching, and seasonal upkeep so your garden stays beautiful and thriving all year round.",
     "body": [
-      "Looking for reliable garden maintenance services in Kathmandu? At Garden Ghar, we provide complete professional garden care to keep your outdoor space healthy, beautiful, and thriving throughout the year — perfectly suited to Nepal’s climate and seasonal changes.",
+      "Looking for reliable garden maintenance services in Kathmandu? At Gulf Gardening, we provide complete professional garden care to keep your outdoor space healthy, beautiful, and thriving throughout the year — perfectly suited to Nepal’s climate and seasonal changes.",
       "Our experienced team handles regular weeding, pruning, mulching, fertilizing, pest monitoring, and seasonal upkeep. Whether you need one-time garden cleaning or ongoing monthly maintenance, we deliver consistent results for both residential gardens and commercial green spaces across Kathmandu Valley.",
       "From small home gardens in Kamalpokhari to hotel landscapes, office premises, and larger properties, our garden maintenance services ensure your plants stay healthy and your garden remains neat and inviting in every season. We focus on proper plant care, soil health, and climate-appropriate techniques so your garden flourishes with minimal effort from you.",
-      "Choose Garden Ghar for trusted garden maintenance in Kathmandu and enjoy a beautiful, well-cared-for garden without the hassle. Contact us today for a free consultation and customized maintenance package."
+      "Choose Gulf Gardening for trusted garden maintenance in Kathmandu and enjoy a beautiful, well-cared-for garden without the hassle. Contact us today for a free consultation and customized maintenance package."
     ],
     "faqs": [
       {
@@ -106,7 +106,7 @@ export const services = [
         "a": "Absolutely. We offer professional garden maintenance for homes, apartments, rooftops, offices, hotels, resorts, and commercial complexes across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I book garden maintenance services with Garden Ghar?",
+        "q": "How do I book garden maintenance services with Gulf Gardening?",
         "a": "You can contact us via phone, WhatsApp, or our website. We will schedule a quick site visit, assess your garden, and provide a customized quote before starting the service."
       }
     ]
@@ -117,10 +117,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Soil testing, amendment, and preparation to create the ideal growing conditions for plants, flowers, and landscaping projects.",
     "body": [
-      "Looking for professional soil improvement services in Kathmandu? At Garden Ghar, we specialize in soil testing, amendment, and preparation to create the ideal growing conditions for plants, flowers, lawns, and landscaping projects — perfectly suited to Nepal’s diverse soil types and climate.",
+      "Looking for professional soil improvement services in Kathmandu? At Gulf Gardening, we specialize in soil testing, amendment, and preparation to create the ideal growing conditions for plants, flowers, lawns, and landscaping projects — perfectly suited to Nepal’s diverse soil types and climate.",
       "Our expert team analyzes soil quality, corrects deficiencies, improves drainage and structure, and adds the right organic matter, compost, and nutrients. Whether your soil is too compacted, low in fertility, or poorly draining, we help transform it into a healthy foundation for strong plant growth across Kathmandu Valley.",
       "From residential gardens in Kamalpokhari to rooftop planters, hotel landscapes, and commercial green spaces, our soil improvement services ensure better root development, healthier plants, and long-term garden success. We focus on sustainable methods and climate-appropriate solutions so your soil supports thriving greenery with lasting results.",
-      "Choose Garden Ghar for trusted soil improvement in Kathmandu and give your plants the healthy foundation they need. Contact us today for a free consultation and customized soil care plan."
+      "Choose Gulf Gardening for trusted soil improvement in Kathmandu and give your plants the healthy foundation they need. Contact us today for a free consultation and customized soil care plan."
     ],
     "faqs": [
       {
@@ -140,7 +140,7 @@ export const services = [
         "a": "Absolutely. We provide specialized soil mixes and improvement techniques for rooftop gardens, balconies, and container plants, ensuring proper drainage, lightweight mixes, and good nutrition."
       },
       {
-        "q": "How do I book soil improvement services with Garden Ghar?",
+        "q": "How do I book soil improvement services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will schedule a site visit, assess your soil condition, and provide a clear customized quote before starting the work."
       }
     ]
@@ -151,10 +151,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Design, installation, repair, and maintenance of efficient irrigation systems — including sprinklers and drip irrigation — for optimal water use.",
     "body": [
-      "Looking for reliable irrigation services in Kathmandu? At Garden Ghar, we specialize in the design, installation, repair, and maintenance of efficient irrigation systems — including sprinklers and drip irrigation — to ensure your plants receive the right amount of water with minimal wastage, perfectly suited to Nepal’s climate and water conditions.",
+      "Looking for reliable irrigation services in Kathmandu? At Gulf Gardening, we specialize in the design, installation, repair, and maintenance of efficient irrigation systems — including sprinklers and drip irrigation — to ensure your plants receive the right amount of water with minimal wastage, perfectly suited to Nepal’s climate and water conditions.",
       "Our experienced team creates customized irrigation solutions for gardens, lawns, rooftops, and commercial landscapes. Whether you need a new system installed, an existing one repaired, or regular maintenance, we deliver water-efficient results that keep your plants healthy while saving time and resources across Kathmandu Valley.",
       "From residential gardens in Kamalpokhari to hotel landscapes, office premises, and larger commercial green spaces, our irrigation services help maintain consistent moisture levels and support thriving plants year-round. We focus on smart design, quality materials, and climate-appropriate systems so your garden stays hydrated efficiently with less effort from you.",
-      "Choose Garden Ghar for trusted irrigation services in Kathmandu and enjoy a well-watered, healthy garden without the hassle. Contact us today for a free consultation and customized irrigation solution."
+      "Choose Gulf Gardening for trusted irrigation services in Kathmandu and enjoy a well-watered, healthy garden without the hassle. Contact us today for a free consultation and customized irrigation solution."
     ],
     "faqs": [
       {
@@ -174,7 +174,7 @@ export const services = [
         "a": "Yes. We provide professional irrigation solutions for homes, apartments, hotels, resorts, offices, and commercial landscapes across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I book irrigation services with Garden Ghar?",
+        "q": "How do I book irrigation services with Gulf Gardening?",
         "a": "You can contact us via phone, WhatsApp, or our website. We will schedule a site visit, assess your water needs and layout, and provide a customized quote before starting the work."
       }
     ]
@@ -185,10 +185,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Integrated pest management and disease prevention solutions that protect your plants while maintaining a healthy outdoor environment.",
     "body": [
-      "Looking for effective pest and disease control services for gardens and plants in Kathmandu? At Garden Ghar, we provide professional integrated pest management and disease prevention solutions to protect your plants, flowers, trees, and overall landscape — carefully tailored to Nepal’s climate and common local issues.",
+      "Looking for effective pest and disease control services for gardens and plants in Kathmandu? At Gulf Gardening, we provide professional integrated pest management and disease prevention solutions to protect your plants, flowers, trees, and overall landscape — carefully tailored to Nepal’s climate and common local issues.",
       "Our experienced team identifies pests and plant diseases early, applies safe and effective treatments, and implements preventive measures to keep your garden healthy. Whether you are dealing with common insects, fungal problems, or recurring plant health issues, we deliver reliable results for both residential gardens and commercial green spaces across Kathmandu Valley.",
       "From home gardens in Kamalpokhari to hotel landscapes, rooftop gardens, and larger properties, our pest and disease control services help maintain strong, vibrant plants while minimizing damage. We focus on environmentally responsible methods, proper plant care, and long-term prevention so your garden stays healthy with lasting protection.",
-      "Choose Garden Ghar for trusted pest and disease control in Kathmandu and keep your plants safe and thriving. Contact us today for a free consultation and customized treatment plan."
+      "Choose Gulf Gardening for trusted pest and disease control in Kathmandu and keep your plants safe and thriving. Contact us today for a free consultation and customized treatment plan."
     ],
     "faqs": [
       {
@@ -208,7 +208,7 @@ export const services = [
         "a": "We provide both one-time treatments for existing problems and regular preventive maintenance plans to keep pests and diseases under control throughout the year."
       },
       {
-        "q": "How do I book pest and disease control services with Garden Ghar?",
+        "q": "How do I book pest and disease control services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will schedule a site visit, inspect your plants, identify the issue, and provide a clear customized quote before starting treatment."
       }
     ]
@@ -219,10 +219,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Installation of patios, walkways, retaining walls, stone features, and other non-living landscape elements that enhance both beauty and functionality.",
     "body": [
-      "Looking for professional hardscaping services in Kathmandu? At Garden Ghar, we specialize in the design and installation of patios, walkways, retaining walls, stone features, and other non-living landscape elements that enhance the beauty, functionality, and durability of your outdoor spaces — perfectly suited to Nepal’s terrain and climate.",
+      "Looking for professional hardscaping services in Kathmandu? At Gulf Gardening, we specialize in the design and installation of patios, walkways, retaining walls, stone features, and other non-living landscape elements that enhance the beauty, functionality, and durability of your outdoor spaces — perfectly suited to Nepal’s terrain and climate.",
       "Our experienced team creates well-planned hardscape features that complement your garden and plants while solving practical needs such as slope management, better access, and outdoor living areas. Whether you want a stylish patio, elegant pathways, sturdy retaining walls, or decorative stone elements, we deliver quality results for both residential and commercial properties across Kathmandu Valley.",
       "From homes in Kamalpokhari to hotel landscapes, office premises, and larger projects, our hardscaping services help transform outdoor spaces into more usable, attractive, and long-lasting environments. We focus on proper design, quality materials, and skilled installation so your hardscape features remain strong and beautiful for years.",
-      "Choose Garden Ghar for trusted hardscaping services in Kathmandu and elevate your outdoor space with professional craftsmanship. Contact us today for a free consultation and customized hardscaping solution."
+      "Choose Gulf Gardening for trusted hardscaping services in Kathmandu and elevate your outdoor space with professional craftsmanship. Contact us today for a free consultation and customized hardscaping solution."
     ],
     "faqs": [
       {
@@ -242,7 +242,7 @@ export const services = [
         "a": "Yes. We offer professional hardscaping services for homes, apartments, hotels, resorts, offices, and commercial landscapes across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I book hardscaping services with Garden Ghar?",
+        "q": "How do I book hardscaping services with Gulf Gardening?",
         "a": "You can contact us via phone, WhatsApp, or our website. We will schedule a site visit, discuss your needs and design preferences, and provide a clear customized quote before starting the project."
       }
     ]
@@ -253,10 +253,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Season-specific care including spring cleanups, monsoon preparation, autumn leaf removal, winter protection, and festive decorations.",
     "body": [
-      "Looking for reliable seasonal garden services in Kathmandu? At Garden Ghar, we provide complete season-specific maintenance including spring cleanups, monsoon preparation, autumn leaf removal, winter protection, and festive decorations — carefully tailored to Nepal’s changing climate and seasonal needs.",
+      "Looking for reliable seasonal garden services in Kathmandu? At Gulf Gardening, we provide complete season-specific maintenance including spring cleanups, monsoon preparation, autumn leaf removal, winter protection, and festive decorations — carefully tailored to Nepal’s changing climate and seasonal needs.",
       "Our experienced team helps your garden stay healthy and beautiful throughout the year by addressing the unique challenges of each season. Whether you need a thorough spring refresh, monsoon-ready care, autumn cleanup, or winter plant protection, we deliver consistent results for both residential gardens and commercial green spaces across Kathmandu Valley.",
       "From homes in Kamalpokhari to hotel landscapes, office premises, and larger properties, our seasonal services ensure your outdoor space remains neat, protected, and vibrant no matter the time of year. We focus on timely care, climate-appropriate techniques, and practical solutions so your garden thrives in every season with minimal effort from you.",
-      "Choose Garden Ghar for trusted seasonal garden services in Kathmandu and keep your outdoor space looking its best year-round. Contact us today for a free consultation and customized seasonal care plan."
+      "Choose Gulf Gardening for trusted seasonal garden services in Kathmandu and keep your outdoor space looking its best year-round. Contact us today for a free consultation and customized seasonal care plan."
     ],
     "faqs": [
       {
@@ -276,7 +276,7 @@ export const services = [
         "a": "Absolutely. We provide professional seasonal maintenance for homes, apartments, rooftops, hotels, resorts, offices, and commercial landscapes across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I book seasonal services with Garden Ghar?",
+        "q": "How do I book seasonal services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will discuss the current season’s requirements, schedule a site visit if needed, and provide a clear customized quote before starting the work."
       }
     ]
@@ -287,10 +287,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Custom landscape design and planning that creates beautiful, functional outdoor spaces tailored to your lifestyle, space, and preferences.",
     "body": [
-      "Looking for professional landscape design services in Kathmandu? At Garden Ghar, we create beautiful, functional, and sustainable outdoor spaces tailored to your needs, lifestyle, and property — perfectly adapted to Nepal’s climate, terrain, and urban living conditions.",
+      "Looking for professional landscape design services in Kathmandu? At Gulf Gardening, we create beautiful, functional, and sustainable outdoor spaces tailored to your needs, lifestyle, and property — perfectly adapted to Nepal’s climate, terrain, and urban living conditions.",
       "Our experienced design team carefully plans gardens, lawns, planting layouts, hardscape elements, and overall outdoor flow to transform ordinary spaces into inviting green environments. Whether you want a peaceful home garden, a stylish rooftop retreat, or an impressive commercial landscape, we deliver thoughtful designs that balance beauty, practicality, and long-term ease of maintenance across Kathmandu Valley.",
       "From residential properties in Kamalpokhari to hotels, offices, and larger commercial projects, our landscape design services help you make the most of your outdoor space. We focus on smart plant selection, proper layout, climate suitability, and harmonious design so your landscape looks stunning and performs well for years to come.",
-      "Choose Garden Ghar for trusted landscape design in Kathmandu and turn your outdoor vision into reality. Contact us today for a free consultation and customized design proposal."
+      "Choose Gulf Gardening for trusted landscape design in Kathmandu and turn your outdoor vision into reality. Contact us today for a free consultation and customized design proposal."
     ],
     "faqs": [
       {
@@ -310,7 +310,7 @@ export const services = [
         "a": "We offer both pure design services and complete design-and-build packages. You can choose to have us handle only the planning or the full execution including planting and hardscaping."
       },
       {
-        "q": "How do I start a landscape design project with Garden Ghar?",
+        "q": "How do I start a landscape design project with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will schedule a site visit, discuss your ideas and requirements, and provide a clear customized design proposal and quote."
       }
     ]
@@ -321,10 +321,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "A wide selection of quality shade trees, ornamental trees, and fruit trees, supported by expert advice on selection, planting, and care.",
     "body": [
-      "Looking for quality tree sales and supply in Kathmandu? At Garden Ghar, we offer a wide selection of healthy shade trees, ornamental trees, and fruit trees, supported by expert advice on selection, planting, and care — perfectly suited to Nepal’s climate and growing conditions.",
+      "Looking for quality tree sales and supply in Kathmandu? At Gulf Gardening, we offer a wide selection of healthy shade trees, ornamental trees, and fruit trees, supported by expert advice on selection, planting, and care — perfectly suited to Nepal’s climate and growing conditions.",
       "Our team helps you choose the right trees for your space, whether you need privacy screening, shade, seasonal beauty, or fruit production. We supply well-grown, healthy trees and can also assist with professional planting to give them the best start across Kathmandu Valley.",
       "From residential gardens in Kamalpokhari to hotel landscapes, office premises, and larger commercial projects, our tree sales and supply services help you add lasting greenery and value to your property. We focus on suitable species, healthy stock, and practical guidance so your trees grow strong and thrive for years.",
-      "Choose Garden Ghar for trusted tree sales in Kathmandu and find the perfect trees for your outdoor space. Contact us today for expert recommendations and availability."
+      "Choose Gulf Gardening for trusted tree sales in Kathmandu and find the perfect trees for your outdoor space. Contact us today for expert recommendations and availability."
     ],
     "faqs": [
       {
@@ -344,7 +344,7 @@ export const services = [
         "a": "Yes. We supply trees for homes, apartments, rooftops (where suitable), hotels, resorts, offices, and commercial landscapes across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I order trees or check availability with Garden Ghar?",
+        "q": "How do I order trees or check availability with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. Share your requirements, and we will advise on suitable options, current availability, pricing, and planting support."
       }
     ]
@@ -355,10 +355,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Professional plant propagation including seed starting, cuttings, and grafting to help expand and multiply your plant collection.",
     "body": [
-      "Looking for professional plant propagation services in Kathmandu? At Garden Ghar, we specialize in seed starting, cutting propagation, and grafting to help you expand your plant collection successfully — using proven techniques suited to Nepal’s climate and growing conditions.",
+      "Looking for professional plant propagation services in Kathmandu? At Gulf Gardening, we specialize in seed starting, cutting propagation, and grafting to help you expand your plant collection successfully — using proven techniques suited to Nepal’s climate and growing conditions.",
       "Our experienced team carefully propagates a wide range of plants, ensuring healthy new growth from seeds, stem cuttings, or grafting methods. Whether you want to multiply your favorite plants, grow new varieties, or expand your garden affordably, we deliver reliable results for both home gardeners and larger landscape projects across Kathmandu Valley.",
       "From residential gardens in Kamalpokhari to rooftop collections, hotel landscapes, and commercial green spaces, our plant propagation services help you grow more plants with higher success rates. We focus on proper timing, healthy parent material, and aftercare support so your new plants establish well and thrive.",
-      "Choose Garden Ghar for trusted plant propagation in Kathmandu and grow your green collection with expert care. Contact us today for a free consultation and customized propagation solution."
+      "Choose Gulf Gardening for trusted plant propagation in Kathmandu and grow your green collection with expert care. Contact us today for a free consultation and customized propagation solution."
     ],
     "faqs": [
       {
@@ -378,7 +378,7 @@ export const services = [
         "a": "Absolutely. We provide plant propagation services for home gardeners, rooftop and balcony collections, hotels, nurseries, and commercial landscaping projects across Kathmandu."
       },
       {
-        "q": "How do I book plant propagation services with Garden Ghar?",
+        "q": "How do I book plant propagation services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. Share the plants you wish to propagate, and we will advise on the best method, timeline, and provide a clear customized quote."
       }
     ]
@@ -389,10 +389,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Premium soil blends, compost, organic and chemical fertilizers, and soil amendments to nourish plants and improve growing conditions.",
     "body": [
-      "Looking for quality soil and fertilizers in Kathmandu? At Garden Ghar, we supply premium soil blends, compost, organic and chemical fertilizers, and soil amendments to nourish your plants and improve growing conditions — perfectly suited to Nepal’s soil types and climate.",
+      "Looking for quality soil and fertilizers in Kathmandu? At Gulf Gardening, we supply premium soil blends, compost, organic and chemical fertilizers, and soil amendments to nourish your plants and improve growing conditions — perfectly suited to Nepal’s soil types and climate.",
       "Our team helps you choose the right soil mixes and fertilizers for lawns, gardens, rooftop planters, flowering plants, trees, and vegetables. Whether you need to enrich poor soil, boost plant growth, or maintain healthy nutrition, we provide reliable products and practical advice across Kathmandu Valley.",
       "From residential gardens in Kamalpokhari to hotel landscapes, office green spaces, and larger commercial projects, our soil and fertilizer solutions support stronger roots, healthier plants, and better results. We focus on quality materials, proper application guidance, and climate-appropriate options so your plants receive the nutrition they need to thrive.",
-      "Choose Garden Ghar for trusted soil and fertilizers in Kathmandu and give your plants the best foundation for healthy growth. Contact us today for expert recommendations and supply."
+      "Choose Gulf Gardening for trusted soil and fertilizers in Kathmandu and give your plants the best foundation for healthy growth. Contact us today for expert recommendations and supply."
     ],
     "faqs": [
       {
@@ -412,7 +412,7 @@ export const services = [
         "a": "Yes. We supply soil, compost, and fertilizers for homes, apartments, hotels, resorts, offices, and commercial landscapes across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I order soil and fertilizers from Garden Ghar?",
+        "q": "How do I order soil and fertilizers from Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. Share your requirements, and we will recommend the right products, confirm availability, pricing, and delivery options."
       }
     ]
@@ -423,10 +423,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Expert advice on landscape planning, plant selection, garden design, and long-term maintenance strategies for the best results.",
     "body": [
-      "Looking for expert garden and landscape consultation services in Kathmandu? At Garden Ghar, we provide professional advice on landscape planning, plant selection, garden design, and maintenance strategies to help you achieve the best results — tailored to Nepal’s climate, soil, and urban conditions.",
+      "Looking for expert garden and landscape consultation services in Kathmandu? At Gulf Gardening, we provide professional advice on landscape planning, plant selection, garden design, and maintenance strategies to help you achieve the best results — tailored to Nepal’s climate, soil, and urban conditions.",
       "Our experienced consultants assess your space, understand your goals, and offer practical, customized recommendations. Whether you need guidance for a new garden, rooftop design, plant choices, ongoing care, or solving existing garden problems, we deliver clear and useful advice for both residential and commercial properties across Kathmandu Valley.",
       "From homes in Kamalpokhari to hotel landscapes, office premises, and larger projects, our consultation services help you make informed decisions and avoid costly mistakes. We focus on realistic solutions, climate-suitable plants, and long-term maintenance planning so your outdoor space becomes beautiful and manageable.",
-      "Choose Garden Ghar for trusted gardening and landscape consultation in Kathmandu and get expert guidance for your green space. Contact us today for a free initial discussion and personalized consultation."
+      "Choose Gulf Gardening for trusted gardening and landscape consultation in Kathmandu and get expert guidance for your green space. Contact us today for a free initial discussion and personalized consultation."
     ],
     "faqs": [
       {
@@ -446,7 +446,7 @@ export const services = [
         "a": "Yes. Our consultation services are available for residential clients, apartment owners, hotels, resorts, offices, and commercial landscape projects across Kathmandu."
       },
       {
-        "q": "How do I book a consultation with Garden Ghar?",
+        "q": "How do I book a consultation with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. Share your requirements, and we will schedule a convenient time for discussion or an on-site visit and provide clear next steps."
       }
     ]
@@ -457,10 +457,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Professional tree pruning, trimming, and safe removal services that improve tree health, enhance appearance, and eliminate hazardous trees.",
     "body": [
-      "Looking for professional tree pruning and removal services in Kathmandu? At Garden Ghar, we provide expert tree pruning, trimming, and safe removal services to maintain tree health, improve appearance, and eliminate hazardous or damaged trees from your property — carefully handled to suit Nepal’s urban and residential environments.",
+      "Looking for professional tree pruning and removal services in Kathmandu? At Gulf Gardening, we provide expert tree pruning, trimming, and safe removal services to maintain tree health, improve appearance, and eliminate hazardous or damaged trees from your property — carefully handled to suit Nepal’s urban and residential environments.",
       "Our experienced team uses proper techniques to prune trees for better growth, shape, and safety, while also offering complete and safe tree removal when needed. Whether you require routine pruning, crown thinning, deadwood removal, or full tree felling, we deliver reliable results for both residential and commercial properties across Kathmandu Valley.",
       "From homes in Kamalpokhari to hotel landscapes, office premises, and larger properties, our tree pruning and removal services help keep your outdoor space safe, neat, and healthy. We focus on correct pruning methods, safety standards, and clean site clearance so your trees and surroundings remain well-maintained.",
-      "Choose Garden Ghar for trusted tree pruning and removal in Kathmandu and ensure your trees are cared for by professionals. Contact us today for a free assessment and customized quote."
+      "Choose Gulf Gardening for trusted tree pruning and removal in Kathmandu and ensure your trees are cared for by professionals. Contact us today for a free assessment and customized quote."
     ],
     "faqs": [
       {
@@ -480,7 +480,7 @@ export const services = [
         "a": "Absolutely. We provide tree pruning and removal for homes, apartments, hotels, resorts, offices, and commercial landscapes across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I book tree pruning or removal services with Garden Ghar?",
+        "q": "How do I book tree pruning or removal services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will schedule a site visit, assess the tree(s), and provide a clear customized quote before starting the work."
       }
     ]
@@ -491,10 +491,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Design and installation of outdoor lighting — pathway lights, garden lights, and accent illumination — to enhance beauty, safety, and nighttime usability.",
     "body": [
-      "Looking for professional landscape lighting services in Kathmandu? At Garden Ghar, we specialize in the design and installation of outdoor landscape lighting — including pathway lights, garden lights, and accent illumination — to enhance the beauty, safety, and nighttime usability of your outdoor spaces.",
+      "Looking for professional landscape lighting services in Kathmandu? At Gulf Gardening, we specialize in the design and installation of outdoor landscape lighting — including pathway lights, garden lights, and accent illumination — to enhance the beauty, safety, and nighttime usability of your outdoor spaces.",
       "Our experienced team creates well-planned lighting solutions that highlight plants, pathways, trees, and architectural features while improving safety and extending the use of your garden after dark. Whether you want soft ambient lighting, functional pathway illumination, or dramatic accent lights, we deliver reliable and attractive results for both residential and commercial properties across Kathmandu Valley.",
       "From homes in Kamalpokhari to hotel landscapes, office premises, and larger outdoor areas, our landscape lighting services help transform your garden into a beautiful and functional space even at night. We focus on energy-efficient options, proper placement, and durable installations suited to Nepal’s climate so your outdoor lighting looks great and performs well for years.",
-      "Choose Garden Ghar for trusted landscape lighting in Kathmandu and illuminate your outdoor space with style and safety. Contact us today for a free consultation and customized lighting design."
+      "Choose Gulf Gardening for trusted landscape lighting in Kathmandu and illuminate your outdoor space with style and safety. Contact us today for a free consultation and customized lighting design."
     ],
     "faqs": [
       {
@@ -514,7 +514,7 @@ export const services = [
         "a": "Absolutely. We offer professional landscape lighting for homes, apartments, hotels, resorts, offices, and commercial outdoor spaces across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I book landscape lighting services with Garden Ghar?",
+        "q": "How do I book landscape lighting services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will schedule a site visit, discuss your lighting goals, and provide a clear customized design and quote."
       }
     ]
@@ -525,10 +525,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Professional turf installation and repair, creating lush, healthy lawns for both residential and commercial properties.",
     "body": [
-      "Looking for professional turfing services in Kathmandu? At Garden Ghar, we specialize in quality turf installation and maintenance to create lush, healthy lawns for both residential and commercial spaces — perfectly suited to Nepal’s climate and growing conditions.",
+      "Looking for professional turfing services in Kathmandu? At Gulf Gardening, we specialize in quality turf installation and maintenance to create lush, healthy lawns for both residential and commercial spaces — perfectly suited to Nepal’s climate and growing conditions.",
       "Our experienced team prepares the ground properly, lays high-quality turf, and provides aftercare support to ensure strong root establishment and a beautiful green lawn. Whether you need a new lawn installed, damaged turf repaired, or a complete lawn makeover, we deliver reliable results across Kathmandu Valley.",
       "From homes in Kamalpokhari to hotel landscapes, office premises, and larger commercial properties, our turfing services help you achieve a neat, green, and inviting outdoor space. We focus on proper soil preparation, quality turf selection, and correct installation techniques so your lawn establishes well and stays healthy with the right care.",
-      "Choose Garden Ghar for trusted turfing services in Kathmandu and enjoy a beautiful, ready-to-use lawn. Contact us today for a free consultation and customized turfing solution."
+      "Choose Gulf Gardening for trusted turfing services in Kathmandu and enjoy a beautiful, ready-to-use lawn. Contact us today for a free consultation and customized turfing solution."
     ],
     "faqs": [
       {
@@ -548,7 +548,7 @@ export const services = [
         "a": "Absolutely. We provide professional turfing services for homes, apartments, hotels, resorts, offices, and commercial landscapes across Kathmandu and surrounding areas."
       },
       {
-        "q": "How do I book turfing services with Garden Ghar?",
+        "q": "How do I book turfing services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will schedule a site visit, assess the area, and provide a clear customized quote before starting the work."
       }
     ]
@@ -559,10 +559,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Short-term gardening solutions for events, seasonal displays, or temporary projects, including setup, maintenance, and removal.",
     "body": [
-      "Looking for flexible temporary gardening services in Kathmandu? At Garden Ghar, we provide short-term gardening solutions for events, seasonal displays, exhibitions, and temporary landscaping projects — including plant setup, maintenance, and removal — tailored to your specific needs and timeline.",
+      "Looking for flexible temporary gardening services in Kathmandu? At Gulf Gardening, we provide short-term gardening solutions for events, seasonal displays, exhibitions, and temporary landscaping projects — including plant setup, maintenance, and removal — tailored to your specific needs and timeline.",
       "Our experienced team handles everything from selecting and arranging suitable plants to setting up attractive temporary gardens and ensuring they look their best for the duration of your event or project. Whether you need greenery for a wedding, corporate event, seasonal display, or short-term outdoor enhancement, we deliver reliable and visually appealing results across Kathmandu Valley.",
       "From residential functions in Kamalpokhari to hotel events, office functions, and commercial temporary setups, our temporary gardening services help create beautiful green spaces exactly when you need them. We focus on quality plants, neat presentation, and efficient setup and removal so your event or project looks fresh and professional.",
-      "Choose Garden Ghar for trusted temporary gardening services in Kathmandu and add natural beauty to your special occasion or short-term project. Contact us today for a free consultation and customized temporary gardening solution."
+      "Choose Gulf Gardening for trusted temporary gardening services in Kathmandu and add natural beauty to your special occasion or short-term project. Contact us today for a free consultation and customized temporary gardening solution."
     ],
     "faqs": [
       {
@@ -582,7 +582,7 @@ export const services = [
         "a": "Yes. We provide temporary plant arrangements and garden setups for indoor venues, outdoor areas, rooftops, and event spaces as required."
       },
       {
-        "q": "How do I book temporary gardening services with Garden Ghar?",
+        "q": "How do I book temporary gardening services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. Share your event details, date, and requirements, and we will provide a clear customized quote and plan."
       }
     ]
@@ -593,10 +593,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Specialized care for flowering plants including planting, pruning, fertilizing, pest control, and seasonal flower arrangements to keep your garden vibrant.",
     "body": [
-      "Looking for professional flower maintenance services in Kathmandu? At Garden Ghar, we provide complete care for flowering plants — including planting, pruning, fertilizing, pest management, and seasonal flower arrangements — to keep your garden vibrant, colorful, and healthy throughout the year.",
+      "Looking for professional flower maintenance services in Kathmandu? At Gulf Gardening, we provide complete care for flowering plants — including planting, pruning, fertilizing, pest management, and seasonal flower arrangements — to keep your garden vibrant, colorful, and healthy throughout the year.",
       "Our experienced team specializes in the proper care of flowering plants suited to Nepal’s climate. Whether you have seasonal flowers, perennial blooms, or decorative flowering shrubs, we ensure they receive the right attention so they continue to flower beautifully across Kathmandu Valley.",
       "From residential gardens in Kamalpokhari to hotel landscapes, rooftop gardens, and commercial green spaces, our flower maintenance services help maintain bright and attractive outdoor areas. We focus on timely care, plant health, and seasonal needs so your flowers stay fresh and lively with professional support.",
-      "Choose Garden Ghar for trusted flower maintenance in Kathmandu and enjoy a colorful, well-cared-for garden. Contact us today for a free consultation and customized flower care plan."
+      "Choose Gulf Gardening for trusted flower maintenance in Kathmandu and enjoy a colorful, well-cared-for garden. Contact us today for a free consultation and customized flower care plan."
     ],
     "faqs": [
       {
@@ -616,7 +616,7 @@ export const services = [
         "a": "Yes. We provide specialized flower care for rooftop gardens, balconies, and container plants, using techniques suited to limited and elevated spaces."
       },
       {
-        "q": "How do I book flower maintenance services with Garden Ghar?",
+        "q": "How do I book flower maintenance services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will discuss your flowering plants and requirements, then provide a clear customized quote and care schedule."
       }
     ]
@@ -627,10 +627,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Complete design, installation, and maintenance of rooftop gardens, including container planting, irrigation, and soil management to turn rooftops into green retreats.",
     "body": [
-      "Looking for professional rooftop gardening services in Kathmandu? At Garden Ghar, we specialize in the complete design, installation, and maintenance of rooftop gardens — including container planting, irrigation setup, soil management, and plant care — to transform unused rooftops into beautiful, functional green spaces.",
+      "Looking for professional rooftop gardening services in Kathmandu? At Gulf Gardening, we specialize in the complete design, installation, and maintenance of rooftop gardens — including container planting, irrigation setup, soil management, and plant care — to transform unused rooftops into beautiful, functional green spaces.",
       "Our experienced team understands the unique challenges of rooftop gardening in Kathmandu, such as weight limits, sun exposure, wind, and drainage. We create practical and attractive rooftop gardens that thrive in urban conditions, whether for homes, apartments, hotels, or commercial buildings across Kathmandu Valley.",
       "From residential rooftops in Kamalpokhari to larger commercial and hospitality properties, our rooftop gardening services help you make the most of elevated spaces. We focus on lightweight soil solutions, suitable plant selection, efficient irrigation, and long-term maintenance so your rooftop garden stays healthy and enjoyable.",
-      "Choose Garden Ghar for trusted rooftop gardening in Kathmandu and turn your rooftop into a refreshing green retreat. Contact us today for a free consultation and customized rooftop garden plan."
+      "Choose Gulf Gardening for trusted rooftop gardening in Kathmandu and turn your rooftop into a refreshing green retreat. Contact us today for a free consultation and customized rooftop garden plan."
     ],
     "faqs": [
       {
@@ -650,7 +650,7 @@ export const services = [
         "a": "Yes. We provide suitable drip irrigation and watering solutions designed specifically for rooftop and container gardens to ensure efficient and convenient plant care."
       },
       {
-        "q": "How do I start a rooftop gardening project with Garden Ghar?",
+        "q": "How do I start a rooftop gardening project with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will schedule a site visit, assess your rooftop conditions, and provide a clear customized design and quote."
       }
     ]
@@ -661,10 +661,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Comprehensive year-round garden care packages covering seasonal work, pruning, fertilization, pest control, and regular upkeep for continuous beauty.",
     "body": [
-      "Looking for reliable yearly garden maintenance services in Kathmandu? At Garden Ghar, we provide comprehensive year-round garden care packages that include seasonal maintenance, pruning, fertilization, pest control, and regular upkeep — designed to keep your garden healthy and beautiful throughout every season in Nepal’s climate.",
+      "Looking for reliable yearly garden maintenance services in Kathmandu? At Gulf Gardening, we provide comprehensive year-round garden care packages that include seasonal maintenance, pruning, fertilization, pest control, and regular upkeep — designed to keep your garden healthy and beautiful throughout every season in Nepal’s climate.",
       "Our experienced team follows a structured yearly plan so your garden receives the right care at the right time. From spring preparation and monsoon management to autumn cleanup and winter protection, we ensure consistent professional attention for both residential and commercial green spaces across Kathmandu Valley.",
       "From homes in Kamalpokhari to hotel landscapes, office premises, and larger properties, our yearly garden maintenance services give you peace of mind and a continuously well-maintained outdoor space. We focus on proactive care, plant health, and seasonal needs so your garden stays neat, vibrant, and thriving all year long.",
-      "Choose Garden Ghar for trusted yearly garden maintenance in Kathmandu and enjoy a beautiful garden without the year-round hassle. Contact us today for a free consultation and customized annual maintenance package."
+      "Choose Gulf Gardening for trusted yearly garden maintenance in Kathmandu and enjoy a beautiful garden without the year-round hassle. Contact us today for a free consultation and customized annual maintenance package."
     ],
     "faqs": [
       {
@@ -684,7 +684,7 @@ export const services = [
         "a": "Absolutely. We can adjust the scope of work, frequency of visits, and specific services (such as extra pest control or seasonal treatments) according to your preferences and budget."
       },
       {
-        "q": "How do I enroll in yearly garden maintenance with Garden Ghar?",
+        "q": "How do I enroll in yearly garden maintenance with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. We will schedule a site assessment, discuss your garden’s needs, and provide a clear customized yearly maintenance plan and quote."
       }
     ]
@@ -695,10 +695,10 @@ export const services = [
     "category": "Gardening & Landscaping Services",
     "short": "Installation and maintenance of high-quality artificial plants, turf, and landscape elements for low-maintenance, long-lasting, and attractive green spaces.",
     "body": [
-      "Looking for low-maintenance artificial gardening services in Kathmandu? At Garden Ghar, we specialize in the installation and maintenance of high-quality artificial plants, artificial turf, and landscape elements to create durable, attractive, and hassle-free green spaces that look fresh all year round.",
+      "Looking for low-maintenance artificial gardening services in Kathmandu? At Gulf Gardening, we specialize in the installation and maintenance of high-quality artificial plants, artificial turf, and landscape elements to create durable, attractive, and hassle-free green spaces that look fresh all year round.",
       "Our experienced team designs and installs realistic artificial plants and turf solutions suitable for indoor and outdoor areas where natural gardening may be challenging. Whether you need artificial greenery for a home, office, hotel, rooftop, or commercial space, we deliver neat, long-lasting results across Kathmandu Valley.",
       "From residential properties in Kamalpokhari to hotels, offices, and commercial premises, our artificial gardening services provide beautiful green aesthetics with minimal upkeep. We focus on quality materials, natural-looking arrangements, and professional installation so your space stays green and inviting without the demands of live plants.",
-      "Choose Garden Ghar for trusted artificial gardening in Kathmandu and enjoy beautiful greenery with almost no maintenance. Contact us today for a free consultation and customized artificial gardening solution."
+      "Choose Gulf Gardening for trusted artificial gardening in Kathmandu and enjoy beautiful greenery with almost no maintenance. Contact us today for a free consultation and customized artificial gardening solution."
     ],
     "faqs": [
       {
@@ -718,7 +718,7 @@ export const services = [
         "a": "Yes. Although artificial greenery requires minimal care, we provide optional cleaning and upkeep services to keep the plants and turf looking fresh and neat over time."
       },
       {
-        "q": "How do I book artificial gardening services with Garden Ghar?",
+        "q": "How do I book artificial gardening services with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. Share your space and requirements, and we will provide a clear customized design, product options, and quote."
       }
     ]
@@ -729,10 +729,10 @@ export const services = [
     "category": "Special Event & Decorative Services",
     "short": "Beautifully designed flower and plant arrangements for honeymoon beds, creating a memorable and romantic setting for newlywed couples.",
     "body": [
-      "Looking for beautiful honeymoon bed arrangements in Kathmandu? At Garden Ghar, we create elegantly designed flower and plant arrangements specially for honeymoon beds, helping newlywed couples celebrate the beginning of their journey together with a romantic and memorable setting.",
+      "Looking for beautiful honeymoon bed arrangements in Kathmandu? At Gulf Gardening, we create elegantly designed flower and plant arrangements specially for honeymoon beds, helping newlywed couples celebrate the beginning of their journey together with a romantic and memorable setting.",
       "Our team carefully selects fresh flowers and complementary plants to design soft, elegant, and personalized bed decorations that add warmth and beauty to the moment. Whether you prefer classic rose arrangements, mixed floral designs, or a more natural green-and-flower style, we tailor each setup to create a special atmosphere for the couple.",
       "From hotel honeymoon suites in Kathmandu to private residences and resort stays, our honeymoon bed flower arrangements help make the occasion truly unforgettable. We focus on fresh flowers, neat presentation, and thoughtful design so the couple can enjoy a romantic and picture-perfect setting.",
-      "Choose Garden Ghar for trusted honeymoon bed arrangements in Kathmandu and add a beautiful floral touch to the start of a new life together. Contact us today to discuss your preferred style and booking."
+      "Choose Gulf Gardening for trusted honeymoon bed arrangements in Kathmandu and add a beautiful floral touch to the start of a new life together. Contact us today to discuss your preferred style and booking."
     ],
     "faqs": [
       {
@@ -752,7 +752,7 @@ export const services = [
         "a": "We recommend booking at least 2–3 days in advance to ensure flower availability and proper preparation. Last-minute requests may be accommodated based on availability."
       },
       {
-        "q": "How do I book honeymoon bed arrangements with Garden Ghar?",
+        "q": "How do I book honeymoon bed arrangements with Gulf Gardening?",
         "a": "Simply contact us via phone, WhatsApp, or our website. Share the date, location, and preferred style, and we will confirm the details and provide a clear quote."
       }
     ]
@@ -763,11 +763,11 @@ export const services = [
     "category": "Special Event & Decorative Services",
     "short": "Elegant and creative car flower decorations for weddings and special occasions, adding a personal and charming touch to your journey.",
     "body": [
-      "Looking for beautiful and elegant car flower decorations in Kathmandu? At Garden Ghar, we create attractive floral and greenery decorations for wedding cars, bridal cars, engagement ceremonies, anniversaries, special occasions, and other memorable events. Our professionally designed car decorations add a beautiful floral touch and make your special vehicle look elegant and picture-perfect.",
+      "Looking for beautiful and elegant car flower decorations in Kathmandu? At Gulf Gardening, we create attractive floral and greenery decorations for wedding cars, bridal cars, engagement ceremonies, anniversaries, special occasions, and other memorable events. Our professionally designed car decorations add a beautiful floral touch and make your special vehicle look elegant and picture-perfect.",
       "Our team carefully selects fresh flowers, greenery, ribbons, and complementary decorative elements to create stylish and personalized car flower arrangements. Whether you prefer classic red roses, elegant white flowers, colorful mixed flowers, or a simple and sophisticated floral design, we customize the decoration according to your event, vehicle, and preferred style.",
       "From wedding and bridal cars to luxury vehicles and family cars, our car flower decoration services are designed to create a beautiful first impression. We focus on fresh flowers, neat placement, secure decoration, and attractive presentation so your decorated car looks stunning throughout your special occasion.",
-      "Whether you need a simple floral arrangement or a more elaborate wedding car decoration, Garden Ghar can create a design that matches your theme, color preferences, and budget.",
-      "Choose Garden Ghar for trusted car flower decorations in Kathmandu and give your special occasion a beautiful and memorable floral touch. Contact us today to discuss your preferred design, date, location, and booking requirements."
+      "Whether you need a simple floral arrangement or a more elaborate wedding car decoration, Gulf Gardening can create a design that matches your theme, color preferences, and budget.",
+      "Choose Gulf Gardening for trusted car flower decorations in Kathmandu and give your special occasion a beautiful and memorable floral touch. Contact us today to discuss your preferred design, date, location, and booking requirements."
     ],
     "faqs": [
       {
@@ -794,11 +794,11 @@ export const services = [
     "category": "Special Event & Decorative Services",
     "short": "Premium flower and plant arrangements for VIP welcomes at airports, five-star hotels, events, parties, and other special occasions.",
     "body": [
-      "Looking for elegant and impressive VIP welcome arrangements in Kathmandu? At Garden Ghar, we create professionally designed floral welcome arrangements and decorative flooring for VIP guests, dignitaries, wedding ceremonies, corporate events, hotels, receptions, inaugurations, and other special occasions.",
+      "Looking for elegant and impressive VIP welcome arrangements in Kathmandu? At Gulf Gardening, we create professionally designed floral welcome arrangements and decorative flooring for VIP guests, dignitaries, wedding ceremonies, corporate events, hotels, receptions, inaugurations, and other special occasions.",
       "Our VIP welcome flooring arrangements are designed to create a grand and memorable entrance for your guests. We use fresh flowers, flower petals, greenery, decorative elements, and carefully planned floral patterns to transform walkways, entrances, stages, and reception areas into elegant welcoming spaces.",
       "Whether you are planning a VIP reception, wedding, corporate function, official program, hotel event, or special celebration, we can create a customized floral pathway or decorative floor arrangement based on your venue, event theme, preferred colors, and requirements.",
       "From beautiful flower-petal walkways to sophisticated floral borders and complete entrance flooring, our team focuses on neat presentation, attractive design, fresh flowers, and professional setup. Every arrangement is carefully prepared to create an impressive atmosphere from the moment your VIP guests arrive.",
-      "Choose Garden Ghar for trusted VIP welcome arrangements and floral flooring in Kathmandu. Let us create a beautiful and welcoming entrance that leaves a lasting impression on your guests.",
+      "Choose Gulf Gardening for trusted VIP welcome arrangements and floral flooring in Kathmandu. Let us create a beautiful and welcoming entrance that leaves a lasting impression on your guests.",
       "Contact us today to discuss your event date, venue, preferred floral design, color theme, and booking requirements."
     ],
     "faqs": [
@@ -836,4 +836,58 @@ export const services = [
       }
     ]
   }
+];
+
+export const propertyRegions = [
+    {
+        region: "Dubai",
+        items: [
+            { name: "Al Barari", desc: "Private residential community with botanical landscaping" },
+            { name: "Emirates Hills", desc: "Private villa community with large gardens" },
+            { name: "Madinat Jumeirah", desc: "Resort with landscaped grounds and waterways" },
+            { name: "Jumeirah Zabeel Saray", desc: "Palace-style resort with formal gardens" },
+        ],
+    },
+    {
+        region: "Abu Dhabi",
+        items: [
+            { name: "Emirates Palace Mandarin Oriental", desc: "Hotel with palace gardens and palm lawns" },
+            { name: "Jumeirah at Saadiyat Island Resort", desc: "Beachfront resort with coastal planting" },
+            { name: "Saadiyat Lagoons", desc: "Private residential community" },
+            { name: "Yas Acres", desc: "Private residential community with lawns and tree-lined streets" },
+        ],
+    },
+    {
+        region: "India",
+        items: [
+            { name: "Rambagh Palace, Jaipur", desc: "Heritage hotel with Mughal-style gardens" },
+            { name: "The Oberoi Udaivilas, Udaipur", desc: "Lakeside resort with courtyards and gardens" },
+            { name: "Taj Falaknuma Palace, Hyderabad", desc: "Palace hotel with terraced gardens" },
+            { name: "Kumarakom Lake Resort, Kerala", desc: "Backwater resort with tropical planting" },
+            { name: "DLF Aralias, Gurugram", desc: "Private residential community with landscaped grounds" },
+        ],
+    },
+    {
+        region: "Bahrain",
+        items: [
+            { name: "Al Areen Palace and Spa", desc: "Villas with private gardens" },
+            { name: "The Ritz-Carlton, Bahrain", desc: "Resort with landscaped grounds" },
+            { name: "Four Seasons Hotel Bahrain Bay", desc: "Waterfront hotel with gardens" },
+        ],
+    },
+    {
+        region: "Kuwait",
+        items: [
+            { name: "Jumeirah Messilah Beach Hotel and Spa", desc: "Beachfront hotel with landscaped gardens" },
+            { name: "Hilton Kuwait Resort", desc: "Seaside resort with gardens and lawns" },
+        ],
+    },
+    {
+        region: "Doha",
+        items: [
+            { name: "Four Seasons Hotel Doha", desc: "Marina hotel with landscaped grounds" },
+            { name: "Banana Island Resort Doha by Anantara", desc: "Island resort with tropical planting" },
+            { name: "Al Messila Resort and Spa", desc: "Resort with garden courtyards" },
+        ],
+    },
 ];

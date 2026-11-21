@@ -1,4 +1,4 @@
-# Garden Ghar (React + React Router)
+# Gulf Gardening (React + React Router)
 
     npm install
     npm run dev

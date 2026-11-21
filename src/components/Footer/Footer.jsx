@@ -28,7 +28,7 @@ export default function Footer() {
                                 alt=""
                                 className="logo-icon"
                             />
-                            <h3>Garden Ghar</h3>
+                            <h3>Gulf Gardening</h3>
                         </div>
                         <p>
                             Professional gardening services. Plants, people and
@@ -49,14 +49,18 @@ export default function Footer() {
                     </div>
                     <div>
                         <h4>Contact</h4>
-                        <p>Budhanilakantha, Kathmandu</p>
-                        <p>pasanghilp@gmail.com</p>
+                        <p>
+                            907, Gold Crest Executive - Cluster C - Al Thanyah
+                            Fifth - Jumeirah Lakes Towers - Dubai - United Arab
+                            Emirates
+                        </p>
+                        <p>dubai@gulfgardening.com</p>
                         <Link to="/contact" className="btn outline">
                             Contact Us
                         </Link>
                     </div>
                 </div>
-                <p className="copy">© Garden Ghar </p>
+                <p className="copy">© Gulf Gardening </p>
             </footer>
         </div>
     );

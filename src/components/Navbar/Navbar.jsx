@@ -50,7 +50,7 @@ export default function Navbar() {
                             alt=""
                             className="logo-icon"
                         />
-                        Garden Ghar
+                        Gulf Gardening
                     </Link>
                     <button
                         className="menu-btn"
