@@ -4,6 +4,34 @@
     gap: 40px 40px;
 }
 
+.properties__region { margin-top: 2rem; }
+.properties__list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+.properties__list li {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.properties__list img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+.properties__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem;
+}
+.properties__list span { font-size: 0.9rem; opacity: 0.75; }
+
 @media (max-width: 1000px) {
     .project-grid {
         grid-template-columns: repeat(2, 1fr);

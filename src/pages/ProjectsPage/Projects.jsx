@@ -1,6 +1,6 @@
 import PageHeader from "../../components/PageHeader/PageHeader.jsx";
 import ProjectCard from "../../components/ProjectCard/ProjectCard.jsx";
-import { projects } from "../../data/projects.js";
+import { projects, propertyRegions } from "../../data/projects.js";
 import "./Projects.css";
 
 export default function Projects() {
@@ -18,6 +18,30 @@ export default function Projects() {
                         <ProjectCard key={p.slug} project={p} index={i} />
                     ))}
                 </div>
+            </section>
+
+            <section className="section container properties">
+                <h2>Notable Properties</h2>
+                {propertyRegions.map(({ region, items }) => (
+                    <div className="properties__region" key={region}>
+                        <h3>{region}</h3>
+                        <ol className="properties__list" start={undefined}>
+                            {items.map((p) => (
+                                <li key={p.name}>
+                                    <img
+                                        src={p.img}
+                                        alt={`${p.name} garden landscaping`}
+                                        loading="lazy"
+                                    />
+                                    <div className="properties__content">
+                                        <strong>{p.name}</strong>
+                                        <span>{p.desc}</span>
+                                    </div>
+                                </li>
+                            ))}
+                        </ol>
+                    </div>
+                ))}
             </section>
         </>
     );

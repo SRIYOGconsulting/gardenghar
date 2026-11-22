@@ -1,7 +1,6 @@
 import PageHeader from "../../components/PageHeader/PageHeader.jsx";
 import ServiceCard from "../../components/ServiceCard/ServiceCard.jsx";
-import { services, propertyRegions } from "../../data/services.js";
-import "./Services.css";
+import { services } from "../../data/services.js";
 
 const categories = [...new Set(services.map((s) => s.category))];
 
@@ -32,30 +31,6 @@ export default function Services() {
                     </div>
                 </section>
             ))}
-
-            <section className="section container properties">
-                <h2>Notable Properties</h2>
-                {propertyRegions.map(({ region, items }) => (
-                    <div className="properties__region" key={region}>
-                        <h3>{region}</h3>
-                        <ol className="properties__list" start={undefined}>
-                            {items.map((p) => (
-                                <li key={p.name}>
-                                    <img
-                                        src={p.img}
-                                        alt={`${p.name} garden landscaping`}
-                                        loading="lazy"
-                                    />
-                                    <div className="properties__content">
-                                        <strong>{p.name}</strong>
-                                        <span>{p.desc}</span>
-                                    </div>
-                                </li>
-                            ))}
-                        </ol>
-                    </div>
-                ))}
-            </section>
         </>
     );
 }
