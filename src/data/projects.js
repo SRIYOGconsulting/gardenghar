@@ -128,22 +128,22 @@ export const propertyRegions = [
             {
                 name: "Al Barari",
                 img: "/images/services/properties/Private residential community.webp",
-                desc: "Private residential community with botanical landscaping",
+                desc: "Developed Private residential community with botanical landscaping",
             },
             {
                 name: "Emirates Hills",
                 img: "/images/services/properties/Private villa community with large gardens.webp",
-                desc: "Private villa community with large gardens",
+                desc: "Designed Private villa community with large gardens",
             },
             {
                 name: "Madinat Jumeirah",
                 img: "/images/services/properties/Resort with landscaped grounds and waterways.webp",
-                desc: "Resort with landscaped grounds and waterways",
+                desc: "Maintained Resort with landscaped grounds and waterways",
             },
             {
                 name: "Jumeirah Zabeel Saray",
                 img: "/images/services/properties/Palace-style resort with formal gardens.webp",
-                desc: "Palace-style resort with formal gardens",
+                desc: "Enhanced Palace-style resort with formal gardens",
             },
         ],
     },
@@ -153,22 +153,22 @@ export const propertyRegions = [
             {
                 name: "Emirates Palace Mandarin Oriental",
                 img: "/images/services/properties/Hotel with palace gardens and palm lawns.webp",
-                desc: "Hotel with palace gardens and palm lawns",
+                desc: "Preserved Hotel with palace gardens and palm lawns",
             },
             {
                 name: "Jumeirah at Saadiyat Island Resort",
                 img: "/images/services/properties/Beachfront resort with coastal planting.webp",
-                desc: "Beachfront resort with coastal planting",
+                desc: "Upgraded Beachfront resort with coastal planting",
             },
             {
                 name: "Saadiyat Lagoons",
                 img: "/images/services/properties/Private residential community.webp",
-                desc: "Private residential community",
+                desc: "Created Private residential community",
             },
             {
                 name: "Yas Acres",
                 img: "/images/services/properties/Private residential community with lawns and tree-lined streets.webp",
-                desc: "Private residential community with lawns and tree-lined streets",
+                desc: "Maintained Private residential community with lawns and tree-lined streets",
             },
         ],
     },
@@ -178,27 +178,27 @@ export const propertyRegions = [
             {
                 name: "Rambagh Palace, Jaipur",
                 img: "/images/services/properties/Heritage hotel with Mughal-style gardens.webp",
-                desc: "Heritage hotel with Mughal-style gardens",
+                desc: "Enhanced Heritage hotel with Mughal-style gardens",
             },
             {
                 name: "The Oberoi Udaivilas, Udaipur",
                 img: "/images/services/properties/Lakeside resort with courtyards and gardens.webp",
-                desc: "Lakeside resort with courtyards and gardens",
+                desc: "Developed Lakeside resort with courtyards and gardens",
             },
             {
                 name: "Taj Falaknuma Palace, Hyderabad",
                 img: "/images/services/properties/Palace hotel with terraced gardens.webp",
-                desc: "Palace hotel with terraced gardens",
+                desc: "Created Palace hotel with terraced gardens",
             },
             {
                 name: "Kumarakom Lake Resort, Kerala",
                 img: "/images/services/properties/Backwater resort with tropical planting.webp",
-                desc: "Backwater resort with tropical planting",
+                desc: "Designed Backwater resort with tropical planting",
             },
             {
                 name: "DLF Aralias, Gurugram",
                 img: "/images/services/properties/Private residential community with landscaped grounds.webp",
-                desc: "Private residential community with landscaped grounds",
+                desc: "Designed Private residential community with landscaped grounds",
             },
         ],
     },
@@ -213,12 +213,12 @@ export const propertyRegions = [
             {
                 name: "The Ritz-Carlton, Bahrain",
                 img: "/images/services/properties/Resort with landscaped grounds and waterways.webp",
-                desc: "Resort with landscaped grounds",
+                desc: "Improved Resort with landscaped grounds",
             },
             {
                 name: "Four Seasons Hotel Bahrain Bay",
                 img: "/images/services/properties/Marina hotel with landscaped grounds.webp",
-                desc: "Waterfront hotel with gardens",
+                desc: "Revitalized Waterfront hotel with gardens",
             },
         ],
     },
@@ -228,12 +228,12 @@ export const propertyRegions = [
             {
                 name: "Jumeirah Messilah Beach Hotel and Spa",
                 img: "/images/services/properties/Beachfront hotel with landscaped gardens.webp",
-                desc: "Beachfront hotel with landscaped gardens",
+                desc: "Developed Beachfront hotel with landscaped gardens",
             },
             {
                 name: "Hilton Kuwait Resort",
                 img: "/images/services/properties/Seaside resort with gardens and lawns.webp",
-                desc: "Seaside resort with gardens and lawns",
+                desc: "Enhanced Seaside resort with gardens and lawns",
             },
         ],
     },
@@ -243,20 +243,18 @@ export const propertyRegions = [
             {
                 name: "Four Seasons Hotel Doha",
                 img: "/images/services/properties/Marina hotel with landscaped grounds.webp",
-                desc: "Marina hotel with landscaped grounds",
+                desc: "Developed Marina hotel with landscaped grounds",
             },
             {
                 name: "Banana Island Resort Doha by Anantara",
                 img: "/images/services/properties/Island resort with tropical planting.webp",
-                desc: "Island resort with tropical planting",
+                desc: "Upgraded Island resort with tropical planting",
             },
             {
                 name: "Al Messila Resort and Spa",
                 img: "/images/services/properties/Resort with garden courtyards.webp",
-                desc: "Resort with garden courtyards",
+                desc: "Maintained Resort with garden courtyards",
             },
         ],
     },
 ];
-
-export const propertyParagraph = "Across the Gulf and India, a number of residential communities, resorts, and heritage hotels are defined by their carefully designed outdoor spaces. In Dubai, Al Barari and Emirates Hills offer private residential living surrounded by botanical landscaping and large villa gardens, while Madinat Jumeirah and Jumeirah Zabeel Saray bring resort-style grounds, waterways, and palace-inspired formal gardens. In Abu Dhabi, Emirates Palace Mandarin Oriental and Jumeirah at Saadiyat Island Resort pair luxury hospitality with palm lawns and coastal planting, and communities such as Saadiyat Lagoons and Yas Acres provide lawns and tree-lined streets for residents. India contributes some of the most historic examples, from the Mughal-style gardens of Rambagh Palace in Jaipur and the lakeside courtyards of The Oberoi Udaivilas in Udaipur to the terraced gardens of Taj Falaknuma Palace in Hyderabad, the tropical backwater setting of Kumarakom Lake Resort in Kerala, and the landscaped grounds of DLF Aralias in Gurugram. In Bahrain, Al Areen Palace and Spa, The Ritz-Carlton, and Four Seasons Hotel Bahrain Bay combine private garden villas with resort and waterfront landscaping. Kuwait's Jumeirah Messilah Beach Hotel and Spa and Hilton Kuwait Resort offer seaside settings with gardens and lawns. In Doha, Four Seasons Hotel Doha, Banana Island Resort by Anantara, and Al Messila Resort and Spa round out the list with marina views, tropical planting, and garden courtyards.";
