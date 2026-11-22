@@ -10,7 +10,7 @@ export const slides = [
         image: "/images/home/hero2.webp",
     },
     {
-        title: "Best Gardening services in Kathmandu",
+        title: "Best Gardening services in Dubai",
         text: "We design, plant and maintain your garden so you can enjoy it every day.",
         image: "/images/home/hero3.webp",
     },
