@@ -33,7 +33,7 @@ export default function Gallery() {
         <>
             <PageHeader
                 title="The Gallery"
-                subtitle="Showcasing our finest gardening and landscaping Pictures in Nepal"
+                subtitle="Showcasing our finest gardening and landscaping Pictures in Dubai, United Arab Emirates"
                 crumb="Services"
                 image="/images/headers/projects2.webp"
             />

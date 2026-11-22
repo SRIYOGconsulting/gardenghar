@@ -9,7 +9,7 @@ export default function Services() {
         <>
             <PageHeader
                 title="Our Services"
-                subtitle="Best Gardening and landscaping in Kathmandu Nepal"
+                subtitle="Best Gardening and landscaping in Kathmandu Dubai, United Arab Emirates"
                 crumb="Services"
                 image="/images/headers/projects3.webp"
             />

@@ -14,7 +14,7 @@ export default function Contact() {
         <>
             <PageHeader
                 title="Contact Us"
-                subtitle="Please Contact us if you need a gardening service in Nepal"
+                subtitle="Please Contact us if you need a gardening service in Dubai, United Arab Emirates"
                 crumb="Contact"
                 image="/images/headers/projects6.webp"
             />

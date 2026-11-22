@@ -7,7 +7,7 @@ export default function About() {
             <PageHeader
                 title="About Us"
                 crumb="About"
-                subtitle="Best Gardening Services in Kathmandu, Nepal"
+                subtitle="Best Gardening Services in Kathmandu, Dubai, United Arab Emirates"
             />
 
             <section className="section container narrow-text">
