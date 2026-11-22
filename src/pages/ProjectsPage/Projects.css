@@ -32,6 +32,23 @@
 }
 .properties__list span { font-size: 0.9rem; opacity: 0.75; }
 
+.properties__title {
+    font-size: 35px;
+    font-family: Cambria, serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.properties__paragraph {
+    font-family: Cambria, serif;
+}
+
+.properties__place {
+    font-family: Cambria, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
 @media (max-width: 1000px) {
     .project-grid {
         grid-template-columns: repeat(2, 1fr);

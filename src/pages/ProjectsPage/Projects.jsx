@@ -1,6 +1,10 @@
 import PageHeader from "../../components/PageHeader/PageHeader.jsx";
 import ProjectCard from "../../components/ProjectCard/ProjectCard.jsx";
-import { projects, propertyRegions } from "../../data/projects.js";
+import {
+    projects,
+    propertyRegions,
+    propertyParagraph,
+} from "../../data/projects.js";
 import "./Projects.css";
 
 export default function Projects() {
@@ -21,10 +25,11 @@ export default function Projects() {
             </section>
 
             <section className="section container properties">
-                <h2>Notable Properties</h2>
+                <h2 className="properties__title">Notable Properties</h2>
+                <p className="properties__paragraph"> {propertyParagraph} </p>
                 {propertyRegions.map(({ region, items }) => (
                     <div className="properties__region" key={region}>
-                        <h3>{region}</h3>
+                        <h3 className="properties__place">{region}</h3>
                         <ol className="properties__list" start={undefined}>
                             {items.map((p) => (
                                 <li key={p.name}>
