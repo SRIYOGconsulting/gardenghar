@@ -95,17 +95,17 @@ export const posts = [
 
 export const testimonials = [
     {
-        name: "Kapil oli",
+        name: "Mohmmed Hashimy",
         place: "Resort",
         text: "They manage our garden, and I am very satisfied with their work. They cleaned everything, planted new flowers, and even gave tips on how to take care of plants.",
     },
     {
-        name: "Sher bhadur sherpa",
+        name: "Ali Maktoum",
         place: "Hotel",
         text: "We renovated our garden with GardenGhar. The team was friendly and understood exactly what we wanted. Now it feels like a resort. Highly recommended!",
     },
     {
-        name: "Karan sharma",
+        name: "Sara Al Hashimy",
         place: "Guest House",
         text: "Our lawn was in good condition. GardenSewa handled turfing and care. Within weeks, everything turned green and fresh again.",
     },
