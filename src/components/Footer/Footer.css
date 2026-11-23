@@ -1,6 +1,6 @@
 .footer-wrap {
     background:
-        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        linear-gradient(rgb(8 24 12 / 86%), rgb(8 24 12 / 88%)),
         url("/images/footer/footer-bg.webp") center / cover no-repeat;
     color: #fff;
 }
@@ -17,6 +17,7 @@
 }
 .cta h2 {
     margin-bottom: 6px;
+    color: #fff;
 }
 
 .btn.outline {
@@ -34,12 +35,15 @@
 }
 .footer a {
     display: block;
-    color: #ddd;
+    color: rgb(255 255 255 / 78%);
     margin-bottom: 6px;
 }
 .footer a.btn {
     display: inline-block;
     margin-top: 12px;
+}
+.footer a:hover {
+    color: #fff;
 }
 .footer h4 {
     margin-bottom: 12px;
@@ -56,6 +60,9 @@
 }
 .footer-brand h4 {
     margin: 0;
+}
+.footer-brand h3 {
+    color: #fff;
 }
 .copy {
     text-align: center;
