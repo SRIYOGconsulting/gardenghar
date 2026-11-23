@@ -154,6 +154,13 @@ img.img {
 @media (max-width: 800px) {
     .grid3,
     .grid4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid3,
+    .grid4 {
         grid-template-columns: 1fr;
     }
 }
