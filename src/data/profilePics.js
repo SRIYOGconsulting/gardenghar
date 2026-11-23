@@ -1,8 +1,8 @@
 export const DEFAULT_PROFILE_PIC = "/profile-pic/vicky-hladynets.webp";
 
 const profilePics = {
-    "Pasang Tamang": "/profile-pic/mohmeed.webp",
-    "Balen Parajuli": "/profile-pic/joseph-gonzalez.webp",
+    "Pasang Tamang": "/profile-pic/joseph-gonzalez",
+    "Eric Edwan": "/profile-pic/sara.webp",
     "Arman Tamang": "/profile-pic/jurica-koletic.webp",
     "Alok Shah": "/profile-pic/ali.webp",
     "Bhim Thapa": "/profile-pic/sara.webp",

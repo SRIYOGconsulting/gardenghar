@@ -1,7 +1,9 @@
 
 .blog-title {
-    color: #0f5c57;
+    color: var(--green-dark);
     margin: 40px 0 24px;
+    font-size: clamp(1.45rem, 3vw, 1.9rem);
+    letter-spacing: -0.03em;
 }
 .blog-title:first-child {
     margin-top: 0;
@@ -10,12 +12,12 @@
 .blog-grid2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 24px;
 }
 .blog-grid3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 24px;
 }
 
 .page-header .blog- {
@@ -25,4 +27,21 @@
 .page-header .blog-meta {
     color: #fff;
     margin-top: 14px;
+}
+
+@media (max-width: 900px) {
+    .blog-grid3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .blog-grid2,
+    .blog-grid3 {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .blog-title {
+        margin-top: 32px;
+    }
 }

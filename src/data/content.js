@@ -78,7 +78,7 @@ export const posts = [
     {
         id: 2,
         title: "How to Start a Gardening Business",
-        author: "Balen Parajuli",
+        author: "Eric Edwan",
         date: "13 March 2026",
         read: "5 min",
         image: "/images/home/service2.webp",
