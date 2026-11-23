@@ -79,19 +79,26 @@ h2 {
     display: block;
     color: #666;
 }
-.card .avatar {
+.card .profile-pic {
     margin: 0 auto 10px;
 }
-.avatar {
+.profile-pic {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: #0f5c57;
-    color: #fff;
-    display: grid;
-    place-items: center;
-    font-weight: 600;
-    font-size: 0.85rem;
+    object-fit: cover;
+    display: block;
+    background: #e7eee8;
+}
+.post-author {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+}
+.post-author .profile-pic {
+    margin: 0;
+    flex: 0 0 auto;
 }
 
 .icon-circle {

@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import BlogCard from "../../components/BlogCard/BlogCard.jsx";
 import NotFound from "../NotFoundPage/NotFound.jsx";
 import { posts } from "../../data/blog.js";
+import { DEFAULT_PROFILE_PIC, getProfilePic } from "../../data/profilePics.js";
 import "./BlogPost.css";
 
 export default function BlogPost() {
@@ -23,7 +24,15 @@ export default function BlogPost() {
                     </p>
                     <h1 className="post-title">{post.title}</h1>
                     <div className="blog-meta center">
-                        <span className="avatar">{post.author[0]}</span>
+                        <img
+                            className="profile-pic"
+                            src={getProfilePic(post.author)}
+                            alt={`${post.author} profile`}
+                            onError={(event) => {
+                                event.currentTarget.onerror = null;
+                                event.currentTarget.src = DEFAULT_PROFILE_PIC;
+                            }}
+                        />
                         <span>{post.author}</span>
                         <span className="sep">•</span>
                         <span>{post.date}</span>

@@ -3,6 +3,7 @@ import Hero from "../../components/Hero/Hero.jsx";
 import { features, projects, posts, testimonials } from "../../data/content.js";
 import { services } from "../../data/services.js";
 import ServiceCard from "../../components/ServiceCard/ServiceCard.jsx";
+import { DEFAULT_PROFILE_PIC, getProfilePic } from "../../data/profilePics.js";
 
 export default function Home() {
     return (
@@ -73,9 +74,20 @@ export default function Home() {
                                     alt={p.title}
                                 />
                                 <h3>{p.title}</h3>
-                                <small>
-                                    {p.author} • {p.date} • {p.read}
-                                </small>
+                                <div className="post-author">
+                                    <img
+                                        className="profile-pic"
+                                        src={getProfilePic(p.author)}
+                                        alt={`${p.author} profile`}
+                                        onError={(event) => {
+                                            event.currentTarget.onerror = null;
+                                            event.currentTarget.src = DEFAULT_PROFILE_PIC;
+                                        }}
+                                    />
+                                    <small>
+                                        {p.author} • {p.date} • {p.read}
+                                    </small>
+                                </div>
                             </div>
                         ))}
                     </div>
@@ -87,7 +99,15 @@ export default function Home() {
                 <div className="grid3">
                     {testimonials.map((t) => (
                         <blockquote className="card" key={t.name}>
-                            <div className="avatar">{t.name[0]}</div>
+                            <img
+                                className="profile-pic"
+                                src={getProfilePic(t.name)}
+                                alt={`${t.name} profile`}
+                                onError={(event) => {
+                                    event.currentTarget.onerror = null;
+                                    event.currentTarget.src = DEFAULT_PROFILE_PIC;
+                                }}
+                            />
                             <p>“{t.text}”</p>
                             <strong>{t.name}</strong>
                             <small>{t.place}</small>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./BlogCard.css";
+import { DEFAULT_PROFILE_PIC, getProfilePic } from "../../data/profilePics.js";
 
 export default function BlogCard({ post, variant = "recent", index = 0 }) {
     const to = `/blog/${post.slug}`;
@@ -16,7 +17,15 @@ export default function BlogCard({ post, variant = "recent", index = 0 }) {
 
             <div className="blog-body">
                 <div className="blog-meta">
-                    <span className="avatar">{post.author[0]}</span>
+                    <img
+                        className="profile-pic"
+                        src={getProfilePic(post.author)}
+                        alt={`${post.author} profile`}
+                        onError={(event) => {
+                            event.currentTarget.onerror = null;
+                            event.currentTarget.src = DEFAULT_PROFILE_PIC;
+                        }}
+                    />
                     <span>{post.author}</span>
                     <span className="sep">•</span>
                     <span>{post.date}</span>
