@@ -12,36 +12,21 @@ export default function Projects() {
                 crumb="Projects"
                 image="/images/headers/projects1.webp"
             />
+
+            <section className="section container">
+                <div className="project-grid">
+                    {propertyRegions.map((p, i) => (
+                        <ProjectCard key={p.slug} project={p} index={i} />
+                    ))}
+                </div>
+            </section>
+
             <section className="section container">
                 <div className="project-grid">
                     {projects.map((p, i) => (
                         <ProjectCard key={p.slug} project={p} index={i} />
                     ))}
                 </div>
-            </section>
-
-            <section className="section container properties">
-                <h2 className="properties__title">Notable Properties</h2>
-                {propertyRegions.map(({ region, items }) => (
-                    <div className="properties__region" key={region}>
-                        <h3 className="properties__place">{region}</h3>
-                        <ol className="properties__list" start={undefined}>
-                            {items.map((p) => (
-                                <li key={p.name}>
-                                    <img
-                                        src={p.img}
-                                        alt={`${p.name} garden landscaping`}
-                                        loading="lazy"
-                                    />
-                                    <div className="properties__content">
-                                        <strong>{p.name}</strong>
-                                        <span>{p.desc}</span>
-                                    </div>
-                                </li>
-                            ))}
-                        </ol>
-                    </div>
-                ))}
             </section>
         </>
     );

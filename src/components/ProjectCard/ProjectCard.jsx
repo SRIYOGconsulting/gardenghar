@@ -12,7 +12,7 @@ export default function ProjectCard({ project, index = 0 }) {
         <article className="project-card">
             <div className="project-img">
                 <img
-                    src={`/images/projects/${project.slug}.webp`}
+                    src={project.img || `/images/projects/${project.slug}.webp`}
                     alt={project.title}
                     loading="lazy"
                     onError={handleError}
