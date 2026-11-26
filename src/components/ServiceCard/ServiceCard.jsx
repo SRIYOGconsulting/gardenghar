@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./ServiceCard.css";
 
 export default function ServiceCard({ service, index = 0, showText = false }) {
-    const fallback = `/images/home/service${(index % 6) + 1}.webp`;
+    const fallback = `/images/blogImg/blog${(index % 6) + 1}.webp`;
 
     const handleError = (e) => {
         if (!e.currentTarget.src.endsWith(fallback)) {

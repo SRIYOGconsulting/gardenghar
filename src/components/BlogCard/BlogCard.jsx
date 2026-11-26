@@ -9,7 +9,7 @@ export default function BlogCard({ post, variant = "recent", index = 0 }) {
         <article className={`blog-card ${variant}`}>
             <Link to={to} className="blog-img-link">
                 <img
-                    src={`/images/home/service${(index % 6) + 1}.webp`}
+                    src={`/images/blogImg/blog${(index % 6) + 1}.webp`}
                     alt={post.title}
                     loading="lazy"
                 />

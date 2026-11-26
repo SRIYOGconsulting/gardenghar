@@ -1,7 +1,7 @@
 import "./ProjectCard.css";
 
 export default function ProjectCard({ project, index = 0 }) {
-    const fallback = `/images/home/service${(index % 6) + 1}.webp`;
+    const fallback = `/images/blogImg/bloge${(index % 6) + 1}.webp`;
 
     const handleError = (e) => {
         if (!e.currentTarget.src.endsWith(fallback))

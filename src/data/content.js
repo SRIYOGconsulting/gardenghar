@@ -73,7 +73,7 @@ export const posts = [
         author: "Pasang Tamang",
         date: "16 March 2026",
         read: "5 min",
-        image: "/images/home/service1.webp",
+        image: "/images/blogImg/blog1.webp",
     },
     {
         id: 2,
@@ -81,7 +81,7 @@ export const posts = [
         author: "Eric Edwan",
         date: "13 March 2026",
         read: "5 min",
-        image: "/images/home/service2.webp",
+        image: "/images/blogImg/blog2.webp",
     },
     {
         id: 3,
@@ -89,7 +89,7 @@ export const posts = [
         author: "Arman Tamang",
         date: "6 March 2026",
         read: "5 min",
-        image: "/images/home/service3.webp",
+        image: "/images/blogImg/blog3.webp",
     },
 ];
 

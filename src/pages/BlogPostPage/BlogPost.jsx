@@ -12,7 +12,7 @@ export default function BlogPost() {
 
     const post = posts[index];
     const related = posts.filter((p) => p.slug !== slug).slice(0, 3);
-    const image = `/images/home/service${(index % 6) + 1}.webp`;
+    const image = `/images/blogImg/blog${(index % 6) + 1}.webp`;
 
     return (
         <>
@@ -50,11 +50,7 @@ export default function BlogPost() {
             </section>
 
             <article className="section container narrow-text">
-                <img
-                    className="post-img"
-                    src={image}
-                    alt={post.title}
-                />
+                <img className="post-img" src={image} alt={post.title} />
                 {post.body.map((para, i) => (
                     <p key={i}>{para}</p>
                 ))}

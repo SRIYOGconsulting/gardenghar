@@ -2,17 +2,17 @@ import PageHeader from "../../components/PageHeader/PageHeader.jsx";
 import "./Gallery.css";
 
 const galleryImages1 = [
-    "/images/home/service1.webp",
-    "/images/home/service2.webp",
-    "/images/home/service3.webp",
+    "/images/blogImg/blog1.webp",
+    "/images/blogImg/blog2.webp",
+    "/images/blogImg/blog3.webp",
     "/images/home/projects.webp",
     "/images/home/hero1.webp",
 ];
 
 const galleryImages2 = [
-    "/images/home/service4.webp",
-    "/images/home/service5.webp",
-    "/images/home/service6.webp",
+    "/images/blogImg/blog4.webp",
+    "/images/blogImg/blog5.webp",
+    "/images/blogImg/blog6.webp",
 ];
 
 const galleryImages3 = [
