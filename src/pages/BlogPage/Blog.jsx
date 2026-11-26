@@ -21,9 +21,9 @@ export default function Blog() {
         <>
             <PageHeader
                 title="Blog"
-                subtitle="Search for Servicing Blog in Dubai, United Arab Emirates"
+                subtitle="Search for Servicing Blog in Dubai."
                 crumb="Blog"
-                image="/images/headers/projects5.webp"
+                image="/images/headers/blog.webp"
             >
                 <SearchBar value={query} onChange={setQuery} />
             </PageHeader>
